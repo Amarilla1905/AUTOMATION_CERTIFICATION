@@ -1,0 +1,530 @@
+<html lang="es"><head>
+    <title>Mi información</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8 width=device-width,initial-scale=1">
+    <meta name="ms.lang" content="es">
+    <meta name="ms.loc" content="ES">
+    <meta name="viewport" content="">
+    <link rel="SHORTCUT ICON" href="/favicon.ico">
+
+    <link data-bundlelength="516193" data-bundlename="commoncss" data-highcontrast="https://cdn.vsassets.io/v/M226_20230814.3/_cssbundles/HighContrast/vss-bundle-commoncss-vCZ9D6UIO_qlhG7RrGLDp5ecIS_cunZt7_o3iwWt7lrU=" data-includedstyles="jQueryUI-Modified;Core;Splitter;PivotView" href="https://cdn.vsassets.io/v/M226_20230814.3/_cssbundles/Default/vss-bundle-commoncss-v-iQu887NdMc5JZJk3qLWWPIguQy4zWErrDkgvWr3S8s=" rel="stylesheet">
+<link data-bundlelength="796437" data-bundlename="viewcss" data-highcontrast="https://cdn.vsassets.io/v/M226_20230814.3/_cssbundles/HighContrast/vss-bundle-viewcss-vTAVRYovnCf8Ped7tSQdUmF6TY_hLzOr8xtW3dACnl6Y=" data-includedstyles="AexFramework;Profile.Home.Index;VSS.Controls" href="https://cdn.vsassets.io/v/M226_20230814.3/_cssbundles/Default/vss-bundle-viewcss-vjWfhIcNWc8QBO5GsRVBEheDCkDXFVU354R7VCzz7SFc=" rel="stylesheet">
+
+            <style type="text/css">
+            #ux-header .left::before {
+                content: "Microsoft" !important;
+            }
+        </style>
+    
+    
+    <meta name="ms.shortidmsdn" content="vstsprofile">
+    <script id="dataProviders" type="application/json">{"data":{"ms.vss-web.component-data":{"page":[{"componentId":"ms.vss-aex-acquisition.acquisition-page-component","componentType":"layout","componentProperties":{"className":"full-size","orientation":"column","components":[{"componentRegion":"content","componentProperties":{"className":"flex-grow v-scroll-auto h-scroll-auto flex flex-column","role":"main"}},{"componentRegion":"footer","componentProperties":{"role":"complementary"}}]}}]},"ms.vss-web.page-data":{"esNextSupported":true,"hostId":"42ef1410-aa09-0a41-49c7-b10b29416276","hostType":3,"hostName":"TEAM FOUNDATION","hostPath":"/","serviceInstanceType":"00000041-0000-8888-8000-000000000000","isBundlingEnabled":true,"isCdnEnabled":true,"isCdnAvailable":true,"isHosted":true,"isProduction":true,"isDebugMode":false,"isDevfabric":false,"isSslOnly":true,"isTracePointCollectionEnabled":false,"scriptType":"ES2017","serviceVersion":"Dev19.M226.1 (AzureDevOps_M226_20230814.3)","sessionId":"c43e487f-3834-484b-aa08-f5df87d161ea","styleType":"stylesheet","user":{"name":"Sara Castaño Montoya","displayName":"Sara Castaño Montoya","url":"https://app.vssps.visualstudio.com/_apis/Identities/5dc9d1cb-8db8-6e4d-b4cd-22d3f152cbe6","_links":{"avatar":{"href":"https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Avatar"}},"id":"5dc9d1cb-8db8-6e4d-b4cd-22d3f152cbe6","uniqueName":"sarcas@bancolombia.com.co","imageUrl":"https://userprodeus23.vstsusers.visualstudio.com/_apis/Profile/Avatar","descriptor":"aad.NWRjOWQxY2ItOGRiOC03ZTRkLWI0Y2QtMjJkM2YxNTJjYmU2"},"webPlatformVersion":2},"ms.vss-web.shared-data":null,"ms.vss-web.theme-data":{"requestedThemeId":"ms.vss-web.vsts-theme"},"ms.vss-web.user-claims-data":{"member":true},"ms.vss-web.navigation-data":{"displayed":["ms.vss-aex-acquisition.acquisition-page"],"hierarchy":{"ms.vss-aex-acquisition.acquisition-page":["ms.vss-aex-acquisition.acquisition-github-view","ms.vss-aex-acquisition.acquisition-jira-view","ms.vss-aex-acquisition.acquisition-account-vertical-view-suite","ms.vss-aex-acquisition.acquisition-githubboards-view","ms.vss-aex-acquisition.acquisition-github-connect-view"]},"navigation":{"ms.vss-aex-acquisition.acquisition-page":{"id":"ms.vss-aex-acquisition.acquisition-page","name":null,"flags":3,"order":0.0},"ms.vss-aex-acquisition.acquisition-github-view":{"id":"ms.vss-aex-acquisition.acquisition-github-view","name":"Signup","flags":3,"order":0.0},"ms.vss-aex-acquisition.acquisition-jira-view":{"id":"ms.vss-aex-acquisition.acquisition-jira-view","name":"Signup","flags":3,"order":0.0},"ms.vss-aex-acquisition.acquisition-account-vertical-view-suite":{"id":"ms.vss-aex-acquisition.acquisition-account-vertical-view-suite","name":"Signup","flags":3,"order":0.0},"ms.vss-aex-acquisition.acquisition-githubboards-view":{"id":"ms.vss-aex-acquisition.acquisition-githubboards-view","name":"Signup","flags":3,"order":0.0},"ms.vss-aex-acquisition.acquisition-github-connect-view":{"id":"ms.vss-aex-acquisition.acquisition-github-connect-view","name":"Signup","flags":3,"order":0.0}},"location":{"ms.vss-aex-acquisition.acquisition-page":"/me","ms.vss-aex-acquisition.acquisition-github-view":null,"ms.vss-aex-acquisition.acquisition-jira-view":null,"ms.vss-aex-acquisition.acquisition-account-vertical-view-suite":null,"ms.vss-aex-acquisition.acquisition-githubboards-view":null,"ms.vss-aex-acquisition.acquisition-github-connect-view":null},"routeId":"ms.vss-aex-acquisition.me-route","routeTemplates":["me"],"routeValues":{"controller":"Me","action":"Index"}}},"sharedData":{"_identityDetails":{"5dc9d1cb-8db8-6e4d-b4cd-22d3f152cbe6":{"displayName":"Sara Castaño Montoya"}},"_routes":{"ms.vss-aex-acquisition.signout-route":["Signout","_signout"],"ms.vss-aex-acquisition.me-route":["me"]},"_features":{"ms.vss-aex-acquisition.core-creating-project-feature":false,"ms.vss-aex-acquisition.core-combined-form-feature":true},"_locations":{"00000038-0000-8888-8000-000000000000":{"1":"https://userprodeus23.vstsusers.visualstudio.com/"},"951917ac-a960-4999-8464-e3f0aa25b381":{"1":"https://app.vssps.visualstudio.com/"},"00000041-0000-8888-8000-000000000000":{"1":"https://aex.dev.azure.com/"},"00000000-0000-0000-0000-000000000000":{"1":"https://aex.dev.azure.com/"}},"_resourceAreas":{"757874d4-9797-46da-b06f-bcc636ea2d77":"00000000-0000-0000-0000-000000000000"},"_assets":{"ms.vss-aex-acquisition/core/content/devops_log_in.svg":"https://cdn.vsassets.io/ext/ms.vss-aex-acquisition/core/content/devops_log_in.BOhSu5.svg"},"_themes":{"ms.vss-web.vsts-theme":{"id":"ms.vss-web.vsts-theme","name":"Light","extends":null,"data":{"palette-primary-darken-6":"rgba(0, 103, 181, 1)","palette-primary-darken-10":"rgba(0, 91, 161, 1)","palette-primary-darkened-6":"0, 103, 181","palette-primary-darkened-10":"0, 91, 161","palette-primary-shade-30":"0, 69, 120","palette-primary-shade-20":"0, 90, 158","palette-primary-shade-10":"16, 110, 190","palette-primary":"0, 120, 212","palette-primary-tint-10":"43, 136, 216","palette-primary-tint-20":"199, 224, 244","palette-primary-tint-30":"222, 236, 249","palette-primary-tint-40":"239, 246, 252","palette-neutral-100":"0, 0, 0","palette-neutral-80":"51, 51, 51","palette-neutral-70":"76, 76, 76","palette-neutral-60":"102, 102, 102","palette-neutral-30":"166, 166, 166","palette-neutral-20":"200, 200, 200","palette-neutral-10":"218, 218, 218","palette-neutral-8":"234, 234, 234","palette-neutral-6":"239, 239, 239","palette-neutral-4":"244, 244, 244","palette-neutral-2":"248, 248, 248","palette-neutral-0":"255, 255, 255","palette-error":"rgba(232, 17, 35, 1)","palette-error-6":"rgba(203, 15, 31, 1)","palette-error-10":"rgba(184, 14, 28, 1)","palette-black-alpha-0":"rgba(var(--palette-neutral-100), 0)","palette-black-alpha-2":"rgba(var(--palette-neutral-100), 0.02)","palette-black-alpha-4":"rgba(var(--palette-neutral-100), 0.04)","palette-black-alpha-6":"rgba(var(--palette-neutral-100), 0.06)","palette-black-alpha-8":"rgba(var(--palette-neutral-100), 0.08)","palette-black-alpha-10":"rgba(var(--palette-neutral-100), 0.10)","palette-black-alpha-20":"rgba(var(--palette-neutral-100), 0.20)","palette-black-alpha-30":"rgba(var(--palette-neutral-100), 0.30)","palette-black-alpha-60":"rgba(var(--palette-neutral-100), 0.60)","palette-black-alpha-70":"rgba(var(--palette-neutral-100), 0.70)","palette-black-alpha-80":"rgba(var(--palette-neutral-100), 0.80)","palette-black-alpha-100":"rgba(var(--palette-neutral-100), 1)","palette-accent1-light":"249, 235, 235","palette-accent1":"218, 10, 0","palette-accent1-dark":"168, 0, 0","palette-accent2-light":"223, 246, 221","palette-accent2":"186, 216, 10","palette-accent2-dark":"16, 124, 16","palette-accent3-light":"251, 242, 236","palette-accent3":"214, 127, 60","palette-accent3-dark":"171, 102, 48","background-color":"rgba(var(--palette-neutral-0), 1)","communication-foreground":"rgba(var(--palette-primary-shade-20), 1)","communication-background":"rgba(var(--palette-primary), 1)","status-info-foreground":"rgba(0, 120, 212, 1)","status-info-background":"rgba(0, 120, 212, 1)","status-error-foreground":"rgba(205, 74, 69, 1)","status-error-background":"rgba(var(--palette-accent1-light), 1)","status-error-text":"rgba(var(--palette-accent1), 1)","status-error-strong":"rgba(var(--palette-accent1-dark), 1)","status-success-foreground":"rgba(var(--palette-accent2-dark), 1)","status-success-background":"rgba(var(--palette-accent2-light), 1)","status-success-text":"rgba(127, 184, 0, 1)","status-warning-icon-foreground":"rgba(177, 133, 37, 1)","status-warning-foreground":"rgba(214, 127, 60, 1)","status-warning-background":"rgba(var(--palette-accent3-light), 1)","status-warning-text":"rgba(184, 94, 6, 1)","text-primary-color":"rgba(var(--palette-neutral-100), .9)","text-secondary-color":"rgba(var(--palette-neutral-100), .55)","text-disabled-color":"rgba(var(--palette-neutral-100), .38)","text-on-communication-background":"var(--background-color)","border-subtle-color":"rgba(var(--palette-neutral-100), .08)","splitter-border-color":"rgba(var(--palette-neutral-100), .42)","callout-background-color":"var(--background-color)","callout-filtered-background-color":"rgba(var(--palette-neutral-0), 0.86)","callout-shadow-color":"rgba(0, 0, 0, .132)","callout-shadow-secondary-color":"rgba(0, 0, 0, .108)","panel-shadow-color":"rgba(0, 0, 0, .22)","panel-shadow-secondary-color":"rgba(0, 0, 0, .18)","focus-pulse-max-color":"rgba(var(--palette-primary), 0.23)","focus-pulse-min-color":"rgba(var(--palette-primary), 0.15)","focus-border-color":"rgba(var(--palette-primary), 1)","third-party-icon-filter":"none","component-label-default-color":"rgba(var(--palette-neutral-6), 1)","component-label-default-color-hover":"rgba(var(--palette-neutral-10), 1)","component-grid-row-hover-color":"rgba(var(--palette-neutral-2), 1)","component-grid-selected-row-color":"rgba(var(--palette-primary-tint-30), 1)","component-grid-focus-border-color":"rgba(var(--palette-primary), 1)","component-grid-link-selected-row-color":"rgba(var(--palette-primary-shade-20), 1)","component-grid-link-hover-color":"rgba(var(--palette-primary-shade-20), 1)","component-grid-action-hover-color":"rgba(var(--palette-neutral-8), 1)","component-grid-action-selected-cell-hover-color":"rgba(var(--palette-primary-tint-30), 1)","component-grid-cell-bottom-border-color":"rgba(var(--palette-neutral-8), 1)","component-grid-drag-source-color":"rgba(var(--palette-neutral-0), 0.40)","component-menu-selected-item-background":"rgba(var(--palette-neutral-4), 1)"}}}},"resolvedProviders":[{"id":"ms.vss-web.component-data"},{"id":"ms.vss-web.page-data"},{"id":"ms.vss-web.shared-data"},{"id":"ms.vss-web.theme-data"},{"id":"ms.vss-web.user-claims-data"},{"id":"ms.vss-web.navigation-data"}],"exceptions":null,"clientProviders":null,"scopeName":null,"scopeValue":null}</script>
+<meta name="referrer" content="strict-origin-when-cross-origin"><script data-description="contentInit" nonce="">window.$DEBUG = false;window.__scriptType = "ES2017";window.__moduleNamespaces = ["create-react-class","prop-types","react","react-dom","react-dom-factories","react-transition-group","tslib","VSS/Core","@azure/msal-browser","msal-browser","mousetrap","VSS/Platform","VSSUI"];window.__asyncModules = [];window.__extensionsStaticRoot = "https://cdn.vsassets.io/ext/";window.__extensionsLocalStaticRoot = "/_static/_ext/";window.__useAadToken = false;window.resourceLoadStrategy = 'scriptsFirst';var preTraceServiceStartErrors = []; var onPreTraceServiceError = function (event) { preTraceServiceStartErrors.push(event) }; window.addEventListener('error', onPreTraceServiceError);var previousResourceLoadCompletion = window.performance.now(); var resourceLoadTimes = {}; window.logResourceLoad = function (id) {var now = window.performance.now(); resourceLoadTimes[id] = { current: now, previous: previousResourceLoadCompletion }; previousResourceLoadCompletion = now; }; </script><script data-description="disableCdn" nonce="">function cdnReload(fromTimeout) { 
+document.cookie = 'TFS-CDN=disabled;max-age=28800;path=/;secure'; 
+document.cookie = 'TFS-CDNTRACE=report;path=/;secure'; 
+if(fromTimeout){document.cookie = 'TFS-CDNTIMEOUT=report;path=/;secure'; }
+document.location.reload(true); 
+}
+var cdnTimeout = setTimeout(function () { cdnReload(true); }, 10000);</script><script data-description="trackLoadedBundles" nonce=""> var loadedScripts = {}; document.addEventListener('scriptLoaded', function (e) { if (e && e.detail) { loadedScripts[e.detail.id] = true;} });</script><script src="https://cdn.vsassets.io/ext/ms.vss-web/core-content/ms.vss-web.core-content.es6._BOcfO.min.js" nonce="" data-contentlength="189945" data-clientid="ms.vss-web.core-content/core-content/ms.vss-web.core-content.es6.min.js" data-sourcecontribution="ms.vss-web.core-content" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-web.core-content/core-content/ms.vss-web.core-content.es6.min.js');</script><script src="https://cdn.vsassets.io/ext/ms.vss-web/msal-browser/ms.vss-web.msal-browser.es6.fK5bMV.min.js" nonce="" data-contentlength="357167" data-clientid="ms.vss-web.msal-browser/msal-browser/ms.vss-web.msal-browser.es6.min.js" data-sourcecontribution="ms.vss-web.msal-browser" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-web.msal-browser/msal-browser/ms.vss-web.msal-browser.es6.min.js');</script><script src="https://cdn.vsassets.io/ext/ms.vss-web/platform-content/ms.vss-web.platform-content.es6.to_M_o.min.js" nonce="" data-contentlength="138187" data-clientid="ms.vss-web.platform-content/platform-content/ms.vss-web.platform-content.es6.min.js" data-sourcecontribution="ms.vss-web.platform-content" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-web.platform-content/platform-content/ms.vss-web.platform-content.es6.min.js');</script><script src="https://cdn.vsassets.io/ext/ms.vss-features/ui-core-content/ms.vss-features.ui-core-content.es6.ciX8DY.min.js" nonce="" data-contentlength="79011" data-clientid="ms.vss-features.ui-core-content/ui-core-content/ms.vss-features.ui-core-content.es6.min.js" data-sourcecontribution="ms.vss-features.ui-core-content" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-core-content/ui-core-content/ms.vss-features.ui-core-content.es6.min.js');</script><script src="https://cdn.vsassets.io/ext/ms.vss-features/ui-spinner-content/ms.vss-features.ui-spinner-content.es6.L9ZCTB.min.js" nonce="" data-contentlength="1300" data-clientid="ms.vss-features.ui-spinner-content/ui-spinner-content/ms.vss-features.ui-spinner-content.es6.min.js" data-sourcecontribution="ms.vss-features.ui-spinner-content" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-spinner-content/ui-spinner-content/ms.vss-features.ui-spinner-content.es6.min.js');</script><script src="https://cdn.vsassets.io/ext/ms.vss-features/ui-widgets-content/ms.vss-features.ui-widgets-content.es6.idIp_1.min.js" nonce="" data-contentlength="132868" data-clientid="ms.vss-features.ui-widgets-content/ui-widgets-content/ms.vss-features.ui-widgets-content.es6.min.js" data-sourcecontribution="ms.vss-features.ui-widgets-content" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-widgets-content/ui-widgets-content/ms.vss-features.ui-widgets-content.es6.min.js');</script><script src="https://cdn.vsassets.io/ext/ms.vss-features/ui-input-content/ms.vss-features.ui-input-content.es6.Slqt6W.min.js" nonce="" data-contentlength="13565" data-clientid="ms.vss-features.ui-input-content/ui-input-content/ms.vss-features.ui-input-content.es6.min.js" data-sourcecontribution="ms.vss-features.ui-input-content" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-input-content/ui-input-content/ms.vss-features.ui-input-content.es6.min.js');</script><script src="https://cdn.vsassets.io/ext/ms.vss-features/ui-page-content/ms.vss-features.ui-page-content.es6.94w9dk.min.js" nonce="" data-contentlength="23730" data-clientid="ms.vss-features.ui-page-content/ui-page-content/ms.vss-features.ui-page-content.es6.min.js" data-sourcecontribution="ms.vss-features.ui-page-content" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-page-content/ui-page-content/ms.vss-features.ui-page-content.es6.min.js');</script><script src="https://cdn.vsassets.io/ext/ms.vss-features/ui-card-content/ms.vss-features.ui-card-content.es6.pKcXeC.min.js" nonce="" data-contentlength="3470" data-clientid="ms.vss-features.ui-card-content/ui-card-content/ms.vss-features.ui-card-content.es6.min.js" data-sourcecontribution="ms.vss-features.ui-card-content" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-card-content/ui-card-content/ms.vss-features.ui-card-content.es6.min.js');</script><script src="https://cdn.vsassets.io/ext/ms.vss-features/ui-messagebar-content/ms.vss-features.ui-messagebar-content.es6.QC4hwd.min.js" nonce="" data-contentlength="3637" data-clientid="ms.vss-features.ui-messagebar-content/ui-messagebar-content/ms.vss-features.ui-messagebar-content.es6.min.js" data-sourcecontribution="ms.vss-features.ui-messagebar-content" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-messagebar-content/ui-messagebar-content/ms.vss-features.ui-messagebar-content.es6.min.js');</script><script src="https://cdn.vsassets.io/ext/ms.vss-features/ui-layer-content/ms.vss-features.ui-layer-content.es6.WOlQPY.min.js" nonce="" data-contentlength="16168" data-clientid="ms.vss-features.ui-layer-content/ui-layer-content/ms.vss-features.ui-layer-content.es6.min.js" data-sourcecontribution="ms.vss-features.ui-layer-content" data-loadingcontent="true"></script><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-layer-content/ui-layer-content/ms.vss-features.ui-layer-content.es6.min.js');</script><link href="https://cdn.vsassets.io/v/M226_20230814.3/_ext/ms.vss-web/core-content/ms.vss-web.core-content.min.css" rel="stylesheet" crossorigin="anonymous" data-contentlength="13299" data-clientid="ms.vss-web.core-content/core-content/ms.vss-web.core-content.min.css" data-sourcecontribution="ms.vss-web.core-content" data-loadingcontent="true"><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-web.core-content/core-content/ms.vss-web.core-content.min.css');</script><link href="https://cdn.vsassets.io/v/M226_20230814.3/_ext/ms.vss-web/platform-content/ms.vss-web.platform-content.min.css" rel="stylesheet" crossorigin="anonymous" data-contentlength="4114" data-clientid="ms.vss-web.platform-content/platform-content/ms.vss-web.platform-content.min.css" data-sourcecontribution="ms.vss-web.platform-content" data-loadingcontent="true"><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-web.platform-content/platform-content/ms.vss-web.platform-content.min.css');</script><link href="https://cdn.vsassets.io/v/M226_20230814.3/_ext/ms.vss-features/ui-core-content/ms.vss-features.ui-core-content.min.css" rel="stylesheet" crossorigin="anonymous" data-contentlength="62892" data-clientid="ms.vss-features.ui-core-content/ui-core-content/ms.vss-features.ui-core-content.min.css" data-sourcecontribution="ms.vss-features.ui-core-content" data-loadingcontent="true"><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-core-content/ui-core-content/ms.vss-features.ui-core-content.min.css');</script><link href="https://cdn.vsassets.io/v/M226_20230814.3/_ext/ms.vss-features/ui-spinner-content/ms.vss-features.ui-spinner-content.min.css" rel="stylesheet" crossorigin="anonymous" data-contentlength="854" data-clientid="ms.vss-features.ui-spinner-content/ui-spinner-content/ms.vss-features.ui-spinner-content.min.css" data-sourcecontribution="ms.vss-features.ui-spinner-content" data-loadingcontent="true"><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-spinner-content/ui-spinner-content/ms.vss-features.ui-spinner-content.min.css');</script><link href="https://cdn.vsassets.io/v/M226_20230814.3/_ext/ms.vss-features/ui-widgets-content/ms.vss-features.ui-widgets-content.min.css" rel="stylesheet" crossorigin="anonymous" data-contentlength="49826" data-clientid="ms.vss-features.ui-widgets-content/ui-widgets-content/ms.vss-features.ui-widgets-content.min.css" data-sourcecontribution="ms.vss-features.ui-widgets-content" data-loadingcontent="true"><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-widgets-content/ui-widgets-content/ms.vss-features.ui-widgets-content.min.css');</script><link href="https://cdn.vsassets.io/v/M226_20230814.3/_ext/ms.vss-features/ui-input-content/ms.vss-features.ui-input-content.min.css" rel="stylesheet" crossorigin="anonymous" data-contentlength="8125" data-clientid="ms.vss-features.ui-input-content/ui-input-content/ms.vss-features.ui-input-content.min.css" data-sourcecontribution="ms.vss-features.ui-input-content" data-loadingcontent="true"><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-input-content/ui-input-content/ms.vss-features.ui-input-content.min.css');</script><link href="https://cdn.vsassets.io/v/M226_20230814.3/_ext/ms.vss-features/ui-page-content/ms.vss-features.ui-page-content.min.css" rel="stylesheet" crossorigin="anonymous" data-contentlength="14766" data-clientid="ms.vss-features.ui-page-content/ui-page-content/ms.vss-features.ui-page-content.min.css" data-sourcecontribution="ms.vss-features.ui-page-content" data-loadingcontent="true"><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-page-content/ui-page-content/ms.vss-features.ui-page-content.min.css');</script><link href="https://cdn.vsassets.io/v/M226_20230814.3/_ext/ms.vss-features/ui-card-content/ms.vss-features.ui-card-content.min.css" rel="stylesheet" crossorigin="anonymous" data-contentlength="1232" data-clientid="ms.vss-features.ui-card-content/ui-card-content/ms.vss-features.ui-card-content.min.css" data-sourcecontribution="ms.vss-features.ui-card-content" data-loadingcontent="true"><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-card-content/ui-card-content/ms.vss-features.ui-card-content.min.css');</script><link href="https://cdn.vsassets.io/v/M226_20230814.3/_ext/ms.vss-features/ui-messagebar-content/ms.vss-features.ui-messagebar-content.min.css" rel="stylesheet" crossorigin="anonymous" data-contentlength="2343" data-clientid="ms.vss-features.ui-messagebar-content/ui-messagebar-content/ms.vss-features.ui-messagebar-content.min.css" data-sourcecontribution="ms.vss-features.ui-messagebar-content" data-loadingcontent="true"><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-messagebar-content/ui-messagebar-content/ms.vss-features.ui-messagebar-content.min.css');</script><link href="https://cdn.vsassets.io/v/M226_20230814.3/_ext/ms.vss-features/ui-layer-content/ms.vss-features.ui-layer-content.min.css" rel="stylesheet" crossorigin="anonymous" data-contentlength="5997" data-clientid="ms.vss-features.ui-layer-content/ui-layer-content/ms.vss-features.ui-layer-content.min.css" data-sourcecontribution="ms.vss-features.ui-layer-content" data-loadingcontent="true"><script data-description="logResourceLoad" nonce="">window.logResourceLoad('ms.vss-features.ui-layer-content/ui-layer-content/ms.vss-features.ui-layer-content.min.css');</script><script data-description="cdnFallback" nonce="">if (!window.LWL) { cdnReload(false); }</script><script data-description="clearCdnTimeout" nonce="">window.clearTimeout(cdnTimeout);</script><script data-description="fireLoadEvents" nonce="">var contentElements = document.querySelectorAll("[data-loadingcontent=true]"); for (var i=0; i<contentElements.length; i++) { var loadTimes = resourceLoadTimes[contentElements[i].getAttribute('data-clientid')]; window.__contentLoaded(contentElements[i], true, loadTimes && loadTimes.current, loadTimes && loadTimes.previous); }</script>
+
+
+
+
+<style type="text/css">:root { --palette-primary-darken-6: rgba(0, 103, 181, 1); --palette-primary-darken-10: rgba(0, 91, 161, 1); --palette-primary-darkened-6: 0, 103, 181; --palette-primary-darkened-10: 0, 91, 161; --palette-primary-shade-30: 0, 69, 120; --palette-primary-shade-20: 0, 90, 158; --palette-primary-shade-10: 16, 110, 190; --palette-primary: 0, 120, 212; --palette-primary-tint-10: 43, 136, 216; --palette-primary-tint-20: 199, 224, 244; --palette-primary-tint-30: 222, 236, 249; --palette-primary-tint-40: 239, 246, 252; --palette-neutral-100: 0, 0, 0; --palette-neutral-80: 51, 51, 51; --palette-neutral-70: 76, 76, 76; --palette-neutral-60: 102, 102, 102; --palette-neutral-30: 166, 166, 166; --palette-neutral-20: 200, 200, 200; --palette-neutral-10: 218, 218, 218; --palette-neutral-8: 234, 234, 234; --palette-neutral-6: 239, 239, 239; --palette-neutral-4: 244, 244, 244; --palette-neutral-2: 248, 248, 248; --palette-neutral-0: 255, 255, 255; --palette-error: rgba(232, 17, 35, 1); --palette-error-6: rgba(203, 15, 31, 1); --palette-error-10: rgba(184, 14, 28, 1); --palette-black-alpha-0: rgba(var(--palette-neutral-100), 0); --palette-black-alpha-2: rgba(var(--palette-neutral-100), 0.02); --palette-black-alpha-4: rgba(var(--palette-neutral-100), 0.04); --palette-black-alpha-6: rgba(var(--palette-neutral-100), 0.06); --palette-black-alpha-8: rgba(var(--palette-neutral-100), 0.08); --palette-black-alpha-10: rgba(var(--palette-neutral-100), 0.10); --palette-black-alpha-20: rgba(var(--palette-neutral-100), 0.20); --palette-black-alpha-30: rgba(var(--palette-neutral-100), 0.30); --palette-black-alpha-60: rgba(var(--palette-neutral-100), 0.60); --palette-black-alpha-70: rgba(var(--palette-neutral-100), 0.70); --palette-black-alpha-80: rgba(var(--palette-neutral-100), 0.80); --palette-black-alpha-100: rgba(var(--palette-neutral-100), 1); --palette-accent1-light: 249, 235, 235; --palette-accent1: 218, 10, 0; --palette-accent1-dark: 168, 0, 0; --palette-accent2-light: 223, 246, 221; --palette-accent2: 186, 216, 10; --palette-accent2-dark: 16, 124, 16; --palette-accent3-light: 251, 242, 236; --palette-accent3: 214, 127, 60; --palette-accent3-dark: 171, 102, 48; --background-color: rgba(var(--palette-neutral-0), 1); --communication-foreground: rgba(var(--palette-primary-shade-20), 1); --communication-background: rgba(var(--palette-primary), 1); --status-info-foreground: rgba(0, 120, 212, 1); --status-info-background: rgba(0, 120, 212, 1); --status-error-foreground: rgba(205, 74, 69, 1); --status-error-background: rgba(var(--palette-accent1-light), 1); --status-error-text: rgba(var(--palette-accent1), 1); --status-error-strong: rgba(var(--palette-accent1-dark), 1); --status-success-foreground: rgba(var(--palette-accent2-dark), 1); --status-success-background: rgba(var(--palette-accent2-light), 1); --status-success-text: rgba(127, 184, 0, 1); --status-warning-icon-foreground: rgba(177, 133, 37, 1); --status-warning-foreground: rgba(214, 127, 60, 1); --status-warning-background: rgba(var(--palette-accent3-light), 1); --status-warning-text: rgba(184, 94, 6, 1); --text-primary-color: rgba(var(--palette-neutral-100), .9); --text-secondary-color: rgba(var(--palette-neutral-100), .55); --text-disabled-color: rgba(var(--palette-neutral-100), .38); --text-on-communication-background: var(--background-color); --border-subtle-color: rgba(var(--palette-neutral-100), .08); --splitter-border-color: rgba(var(--palette-neutral-100), .42); --callout-background-color: var(--background-color); --callout-filtered-background-color: rgba(var(--palette-neutral-0), 0.86); --callout-shadow-color: rgba(0, 0, 0, .132); --callout-shadow-secondary-color: rgba(0, 0, 0, .108); --panel-shadow-color: rgba(0, 0, 0, .22); --panel-shadow-secondary-color: rgba(0, 0, 0, .18); --focus-pulse-max-color: rgba(var(--palette-primary), 0.23); --focus-pulse-min-color: rgba(var(--palette-primary), 0.15); --focus-border-color: rgba(var(--palette-primary), 1); --third-party-icon-filter: none; --component-label-default-color: rgba(var(--palette-neutral-6), 1); --component-label-default-color-hover: rgba(var(--palette-neutral-10), 1); --component-grid-row-hover-color: rgba(var(--palette-neutral-2), 1); --component-grid-selected-row-color: rgba(var(--palette-primary-tint-30), 1); --component-grid-focus-border-color: rgba(var(--palette-primary), 1); --component-grid-link-selected-row-color: rgba(var(--palette-primary-shade-20), 1); --component-grid-link-hover-color: rgba(var(--palette-primary-shade-20), 1); --component-grid-action-hover-color: rgba(var(--palette-neutral-8), 1); --component-grid-action-selected-cell-hover-color: rgba(var(--palette-primary-tint-30), 1); --component-grid-cell-bottom-border-color: rgba(var(--palette-neutral-8), 1); --component-grid-drag-source-color: rgba(var(--palette-neutral-0), 0.40); --component-menu-selected-item-background: rgba(var(--palette-neutral-4), 1) }</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="@uifabric/styling/lib/index" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/@uifabric/styling/lib/index.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/version" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/version.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/focusable" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/focusable.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/controlgroup" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/controlgroup.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/checkboxradio" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/checkboxradio.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/keycode" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/keycode.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/draggable" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/draggable.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/mouse" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/mouse.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/resizable" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/resizable.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/position" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/position.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/safe-active-element" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/safe-active-element.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/safe-blur" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/safe-blur.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jQueryUI/unique-id" src="https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/jQueryUI/unique-id.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Profile/Scripts/Resources/Aex.Resources.Profile" src="/_static/tfs/M226_20230814.3/_scripts/TFS/min/es-ES/Aex.Resources.Profile.js"></script></head>
+<body class="platform ms-vss-web-vsts-theme">
+    <script type="text/javascript" nonce=""> var __vssPageContext = {"webContext":{"user":{"id":"5dc9d1cb-8db8-6e4d-b4cd-22d3f152cbe6","name":"Sara Castaño Montoya","subjectType":"aad","subjectId":"5dc9d1cb-8db8-7e4d-b4cd-22d3f152cbe6","email":"sarcas@bancolombia.com.co","uniqueName":"sarcas@bancolombia.com.co"},"host":{"id":"42ef1410-aa09-0a41-49c7-b10b29416276","name":"TEAM FOUNDATION","uri":"https://aex.dev.azure.com/","relativeUri":"/","hostType":"deployment","scheme":"https","authority":"aex.dev.azure.com"}},"moduleLoaderConfig":{"baseUrl":"https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/","paths":{"Engagement/Resources":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/es-ES","VSSPreview/Resources":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/es-ES","IntegrationRedirect/Scripts/Resources":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/es-ES","TFSUI/Resources":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/es-ES","DistributedTasksCommon/Resources":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/es-ES","Profile/Scripts/Resources":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/es-ES","VSS/Resources":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/es-ES"},"map":{},"contributionPaths":{"VSS":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/VSS","pathType":"default"},"VSS/Resources":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/es-ES","pathType":"resource"},"q":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/q","pathType":"default"},"knockout":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/knockout","pathType":"default"},"mousetrap":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/mousetrap","pathType":"default"},"mustache":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/mustache","pathType":"default"},"react":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/react.15.3","pathType":"default"},"react-dom":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/react-dom.15.3","pathType":"default"},"react-transition-group":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/react-transition-group.15.3","pathType":"default"},"jQueryUI":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/jQueryUI","pathType":"default"},"jquery":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/jquery","pathType":"default"},"OfficeFabric":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/OfficeFabric","pathType":"default"},"tslib":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/tslib","pathType":"default"},"@uifabric":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/@uifabric","pathType":"default"},"VSSUI":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/VSSUI","pathType":"default"},"TFSUI":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/TFSUI","pathType":"default"},"TFSUI/Resources":{"value":"/_static/tfs/M226_20230814.3/_scripts/TFS/min/es-ES","pathType":"resource"}},"shim":{"jquery":{"deps":[],"exports":"jQuery"}},"waitSeconds":30},"coreReferences":{"stylesheets":[{"url":"/_static/tfs/M226_20230814.3/_cssbundles/Default/vss-bundle-ext-core-css-vFMFM4HmFjE1coiyhYVy6vKHYKJIC0_vbCRs-8Hls0VA=","highContrastUrl":null,"isCoreStylesheet":true}],"scripts":[{"identifier":"JQuery","url":"https://cdn.vsassets.io/3rdParty/_scripts/jquery-3.6.0.min.js","fallbackUrl":null,"fallbackCondition":null,"isCoreModule":true},{"identifier":"JQueryXDomain","url":"https://cdn.vsassets.io/3rdParty/_scripts/jquery.xdomainrequest.min.js","fallbackUrl":null,"fallbackCondition":null,"isCoreModule":true},{"identifier":"Promise","url":"https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/promise.js","fallbackUrl":null,"fallbackCondition":null,"isCoreModule":true},{"identifier":"GlobalScripts","url":"https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/min/global-scripts.js","fallbackUrl":null,"fallbackCondition":null,"isCoreModule":true},{"identifier":"LoaderFixes","url":"https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/pre-loader-shim.min.js","fallbackUrl":null,"fallbackCondition":null,"isCoreModule":false},{"identifier":"AMDLoader","url":"https://cdn.vsassets.io/3rdParty/_scripts/require.min.js","fallbackUrl":null,"fallbackCondition":null,"isCoreModule":true},{"identifier":"LoaderFixes","url":"https://cdn.vsassets.io/v/M226_20230814.3/_scripts/TFS/post-loader-shim.min.js","fallbackUrl":null,"fallbackCondition":null,"isCoreModule":false}],"coreScriptsBundle":{"identifier":"CoreBundle","url":"/_public/_Bundling/Content?bundle=vss-bundle-basejs-vx38JYf0FTtFkI9k88H54KYCLs9sIP_6xJwgWGnd-xvw=","fallbackUrl":null,"fallbackCondition":null,"isCoreModule":true},"extensionCoreReferences":{"identifier":"CoreBundle","url":"https://cdn.vsassets.io/bundles/vss-bundle-ext-core-vucGIYzGV7K6k_x4orEb1XKVEmYuIms3KOmMmT_FvDy8=","fallbackUrl":null,"fallbackCondition":null,"isCoreModule":true}},"webAccessConfiguration":{"isHosted":true,"paths":{"rootPath":"/","staticContentRootPath":"/","staticContentVersion":"M226_20230814.3","resourcesPath":"https://cdn.vsassets.io/v/M226_20230814.3/_content/","staticRootTfs":"https://cdn.vsassets.io/v/M226_20230814.3/","cdnFallbackStaticRootTfs":"/_static/tfs/M226_20230814.3/","staticRoot3rdParty":"https://cdn.vsassets.io/3rdParty/"},"api":{"webApiVersion":"1","areaPrefix":"_","controllerPrefix":""},"mailSettings":{"enabled":true},"registryItems":{}},"microsoftAjaxConfig":{"cultureInfo":{"name":"es-ES","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"€","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"0001-01-01T00:00:00","MaxSupportedDateTime":"9999-12-31T23:59:59.9999999","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2049,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":2,"FullDateTimePattern":"dddd, d' de 'MMMM' de 'yyyy H:mm:ss","LongDatePattern":"dddd, d' de 'MMMM' de 'yyyy","LongTimePattern":"H:mm:ss","MonthDayPattern":"d 'de' MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"H:mm","SortableDateTimePattern":"yyyy'-'MM'-'dd'T'HH':'mm':'ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy'-'MM'-'dd HH':'mm':'ss'Z'","YearMonthPattern":"MMMM' de 'yyyy","AbbreviatedDayNames":["do.","lu.","ma.","mi.","ju.","vi.","sá."],"ShortestDayNames":["D","L","M","X","J","V","S"],"DayNames":["domingo","lunes","martes","miércoles","jueves","viernes","sábado"],"AbbreviatedMonthNames":["ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sep.","oct.","nov.","dic.",""],"MonthNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre",""],"IsReadOnly":true,"NativeCalendarName":"calendario gregoriano","AbbreviatedMonthGenitiveNames":["ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sep.","oct.","nov.","dic.",""],"MonthGenitiveNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre",""]},"numberShortForm":{"QuantitySymbols":[" K"," M"],"NumberGroupSize":1000,"ThousandSymbol":" K"},"eras":null}},"timeZonesConfiguration":{},"featureAvailability":{"featureStates":{"VisualStudio.Services.Contribution.EnableOnPremUnsecureBrowsers":false,"VisualStudio.Service.WebPlatform.ClientErrorReporting":false,"Microsoft.VisualStudio.Services.Gallery.Client.UseCdnAssetUri":false,"VisualStudio.Services.WebAccess.SubresourceIntegrity":false,"VisualStudio.Services.IdentityPicker.ReactProfileCard":true,"VisualStudio.Services.WebPlatform.UseNewBranding":true}},"appInsightsConfiguration":{"enabled":false,"instrumentationKey":"00000000-0000-0000-0000-000000000000","insightsScriptUrl":null},"diagnostics":{"sessionId":"c43e487f-3834-484b-aa08-f5df87d161ea","activityId":"c43e487f-3834-484b-aa08-f5df87d161ea","bundlingEnabled":true,"cdnAvailable":true,"cdnEnabled":true,"webPlatformVersion":"M226","serviceVersion":"Dev19.M226.1 (build: AzureDevOps_M226_20230814.3)"},"navigation":{"topMostLevel":"deployment","area":"","currentController":"Me","currentAction":"Index","commandName":"Me.Index","routeId":"ms.vss-aex-acquisition.me-route","routeTemplates":["me"],"routeValues":{"controller":"Me","action":"Index"}},"globalization":{"explicitTheme":"","theme":"Default","culture":"es-ES","timezoneOffset":0,"timeZoneId":"UTC"},"serviceInstanceId":"00000041-0000-8888-8000-000000000000","hubsContext":{},"serviceLocations":{"locations":{"951917ac-a960-4999-8464-e3f0aa25b381":{"Application":"https://app.vssps.visualstudio.com/","Deployment":"https://app.vssps.visualstudio.com/"},"00000041-0000-8888-8000-000000000000":{"Deployment":"https://aex.dev.azure.com/"}}}};</script><script type="text/javascript" nonce=""> var __cultureInfo = __vssPageContext.microsoftAjaxConfig.cultureInfo;</script>
+<script nonce="" type="text/javascript">if (window.performance && window.performance.mark) { window.performance.mark('startLoadBundleOuter-basejs'); }</script>
+<script data-bundlelength="127542" data-bundlename="basejs" nonce="" src="https://cdn.vsassets.io/bundles/vss-bundle-basejs-vx38JYf0FTtFkI9k88H54KYCLs9sIP_6xJwgWGnd-xvw=" type="text/javascript"></script>
+<script nonce="" type="text/javascript">if (window.performance && window.performance.mark) { window.performance.mark('endLoadBundleOuter-basejs'); }</script>
+
+
+<script type="text/javascript" nonce=""> (function(){
+var unloadStarted = false;
+function onRequireError(e) {
+    var msg = 'Error al cargar un archivo necesario. ¿Quiere recargar la página para volver a intentar la carga?';
+    function reload(prompted) {
+        document.cookie = 'TFS-CDN=disabled;max-age=28800;path=/;secure';
+        document.cookie = 'TFS-CDNTRACE=report-'+prompted+'-'+(e.requireType === 'requirenotloaded' ? 'require' : encodeURIComponent(JSON.stringify(e.requireModules)))+';path=/;secure';
+        document.location.reload(true);
+    }
+    if (!e || !e.requireType || (e.requireType !== 'scripterror' && e.requireType !== 'requirenotloaded')) {
+        throw e;
+    }
+    if (unloadStarted) {
+        return;
+    }
+    if (!window.requiredModulesLoaded) {
+        reload(false);
+    }
+    else if (window.require && require.defined('VSS/Controls/Dialogs')) {
+        require(['VSS/Controls/Dialogs'], function(d) {
+            d.showMessageDialog(msg, { title: 'Error de red', buttons: [d.MessageDialog.buttons.yes, d.MessageDialog.buttons.no] }).then(function() { reload(true) });
+        });
+    }
+    else {
+        if (confirm(msg)) {
+            reload(true);
+        }
+    }
+}
+window.addEventListener('beforeunload', function() {
+    unloadStarted = true;
+});
+if (window.requirejs) {
+    requirejs.onError = onRequireError;
+}
+else {
+    onRequireError({requireType:'requirenotloaded'});
+}
+})();require.config(__vssPageContext.moduleLoaderConfig);</script>
+
+    <input name="__RequestVerificationToken" type="hidden" value="YcYr5omhCCZGKwdrGvoF7-W_GOAoQk_MiNoQ_8pe50MHHIRhDkRSE_NQ7PTfzraV0VrvEO-bwaGaMWh8ifn6xUfA5oGQWVV20YGPRUOfyG4v5vomOhF7H6dmsUngyiCT2GozaSCFZHMKUV3PyZ-XQg2"><input name="__RequestVerificationToken2" type="hidden" value="__RequestVerificationToken21d99648e-572a-4991-82d2-2752d247991d">
+    
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=https://go.microsoft.com/fwlink/?LinkId=299234" />
+    </noscript>
+
+    <div class="main-container">
+        <div class="page-content">
+            <div class="header-section" role="banner">
+
+
+                <link rel="stylesheet" type="text/css" href="https://cdn.vsassets.io/v/M226_20230814.3/_content/Combined.css">
+                <div id="ux-header" class="FF ltr vsIntegrate" xmlns="http://www.w3.org/1999/xhtml">
+                    <span id="isMobile"></span>
+                    <div class="upperBand">
+                        <div class="upperBandContent">
+                            <div class="left"></div>
+                            <div class="right">
+                                <div class="profileImage"></div>
+
+                                <div id="signIn">
+                                    <a class=":SignedOutProfileElement: createProfileLink" href="/go/profile" title="Sara Castaño Montoya">Sara Castaño Montoya</a>
+                                    <a class="scarabLink" href="/_signout">Cerrar sesión</a>
+                                </div>
+                            </div>
+                            <div class="clear-both"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-section" role="main">
+                
+
+
+
+
+<div id="aex-module" class="home-home">
+    <div id="aex-module-body" data-bind="template: {name: templateId, data:dataModel}">
+    </div>
+    <script class="options" defer="defer" id="aex-page-data" type="application/json">{"Tenants":{"IsDefaultTenant":false,"AadTenantDisplayName":"Grupo Bancolombia","Tenants":[{"Id":"b5e244bd-c492-495b-8b10-61bfd453e423","DisplayName":"Grupo Bancolombia","AuthUrl":"https://login.microsoftonline.com/b5e244bd-c492-495b-8b10-61bfd453e423/oauth2/authorize?client_id=499b84ac-1321-427f-aa17-267ca6975798\u0026site_id=501454\u0026response_mode=form_post\u0026response_type=code+id_token\u0026redirect_uri=https%3A%2F%2Fapp.vssps.visualstudio.com%2F_signedin\u0026nonce=f2c33a0e-00c1-4db7-9a62-724300302df7\u0026state=reply_to%3Dhttps%253A%252F%252Faex.dev.azure.com%252Fme%253Fmkt%253Des-ES%26tenant%3Db5e244bd-c492-495b-8b10-61bfd453e423%26nonce%3Df2c33a0e-00c1-4db7-9a62-724300302df7\u0026resource=https%3A%2F%2Fmanagement.core.windows.net%2F\u0026cid=f2c33a0e-00c1-4db7-9a62-724300302df7\u0026wsucxt=1","DefaultDomainName":null}],"CurrentTenantId":"b5e244bd-c492-495b-8b10-61bfd453e423"},"OwnerAccounts":[],"MemberAccounts":[{"AccountId":"b29a340b-0a5e-465f-b6e7-d3d33171fee8","AccountUri":"https://grupobancolombia.vssps.visualstudio.com/","AccountWebUri":"https://grupobancolombia.visualstudio.com/","IsDeleted":false,"SoftDeletedAccountName":null}],"OwnerDeletedAccountIds":[],"MemberDeletedAccountIds":[],"ForeignTenantOwnerAccounts":[],"ForeignTenantMemberAccounts":[],"ForeignTenantOwnerDeletedAccountIds":[],"ForeignTenantMemberDeletedAccountIds":[],"RootContainerClass":"home-home","ReadOnlyProfile":false,"ReadOnlyAvatar":false}</script>
+    <div id="aex-module-templates">
+        
+    <script id="application-authorizations-view" type="text/html">
+<div class="application-list spacing-container-3" data-bind="if: dataLoaded()">
+    <div class="c-heading-5">Autorizaciones</div>
+    <div class="text-muted" data-bind="html: descriptionHtml()"></div>
+    <div>
+        <button class="c-action-trigger no-pad" data-bind="click: actionManageAuthorizations">Administrar autorizaciones</button>
+    </div>
+</div>
+</script>
+    <script id="home-index" type="text/html"><div class="aex-style bowtie">
+    <div class="aex-tabs c-container" data-bind="with: tabsModel">
+        <div class="aex-tab-panel" data-bind="aexComponent: currentTab()"></div>
+    </div>
+</div>
+</script>
+    <script id="home-edit" type="text/html">
+<div class="c-grid-pad-8 pad-left-10">
+    <div class="c-cell" data-bind="with: editTabsModel">
+        <div id="edit-profile-title" class="c-heading-4">Editar perfil</div>
+        <div class="c-in-page-navigation">
+            <ul data-bind="foreach: tabs" role="tablist">
+                <li role="presentation" data-bind="css: { active: ($parent.currentTab() === $data) }">
+                    <a href="#" role="tab" data-bind="css: $data.tabClassName, click: onClick, attr: { 'aria-selected': $parent.currentTab() === $data, 'aria-posinset': $index() + 1, 'aria-setsize': $parent.tabs.length }">
+                        <span data-bind="text: tabDisplayName"></span>
+                        <span data-bind="if: viewModel.hasChangedFields()"> *</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="aex-tabs">
+            <div role="tabpanel" class="aex-tab-panel" data-bind="aexComponent: currentTab()"></div>
+        </div>
+    </div>
+    <div id="terms-of-service" class="c-cell c-col-xl-9 c-col-l-9 c-col-m-9 c-col-s-9 bowtie-label">
+        
+Al hacer clic en Guardar cambios, acepta las <a aria-describedby="terms-of-service" class="link-terms-of-service" href="https://go.microsoft.com/fwlink/?LinkID=266231" target="_blank">Condiciones del servicio</a>, la <a aria-describedby="terms-of-service" class="link-privacy-statement" href="https://go.microsoft.com/fwlink/?LinkID=264782" target="_blank">Declaración de privacidad</a> y el <a class="link-code-of-conduct" href="https://aka.ms/vstscodeofconduct" target="_blank">Código de conducta</a> y certifica que tiene el derecho de distribuir el archivo cargado.
+    </div>
+    <!-- ko if: hasUnexpectedError() -->
+    <div class="c-cell general-error-message">
+        <i class="bowtie-icon bowtie-status-error"></i>
+        <span class="error-message text-md" data-bind="text: unexpectedErrorMessage()"></span>
+    </div>
+    <!-- /ko -->
+    <div class="c-cell">
+        <button id="save-button" class="cta" data-bind="click: saveChanges, attr: {disabled: !hasChangedFields(), 'aria-disabled': !hasChangedFields()}">Guardar cambios</button>
+        <button id="cancel-button" data-bind="click: cancelChanges">Cancelar</button>
+    </div>
+</div>
+</script>
+    <script id="home-edit-about" type="text/html">
+<div class="spacing-container-8 margin-top-8" role="tabpanel">
+    <div class="spacing-container-6">
+        <div class="c-container-fluid fieldset">
+            <label id="profile-avatar-label" class="c-cell c-col-m-3 c-col-s-12">Imagen para el perfil</label>
+            <div class="c-cell c-col-m-6 c-col-s-9 c-container-fluid c-grid-pad-5 no-outer-pad">
+                <div class="c-cell avatar-container-5 spinner-async-overlay">
+                    <!-- ko if: avatarUploading() -->
+                    <div class="spinner-container-overlay">
+                        <div class="spinner-container" aria-busy="true">
+    <div class="spinner spinner-1"></div>
+    <div class="spinner spinner-2"></div>
+    <div class="spinner spinner-3"></div>
+    <div class="spinner spinner-4"></div>
+    <div class="spinner spinner-5"></div>
+    <div class="spinner spinner-6"></div>
+    <div class="spinner spinner-7"></div>
+    <div class="spinner spinner-8"></div>
+    <div class="spinner spinner-9"></div>
+    <div class="spinner spinner-10"></div>
+    <div class="spinner spinner-11"></div>
+    <div class="spinner spinner-12"></div>
+</div>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko ifnot: avatarUploading() -->
+                    <img class="avatar"  alt="" data-bind="attr: {'src': avatarCssBackgroundImageDataUrlPending()}" />
+                    <!-- /ko -->
+                </div>
+                <div class="c-cell" data-bind="aexReact: avatarPicker"></div>
+            </div>
+        </div>
+        <div class="c-container-fluid fieldset" data-bind="with: fullName">
+            <label id="full-name-label" for="full-name-input" class="c-cell c-col-m-3 c-col-s-12">Nombre completo</label>
+            <div class="c-cell c-col-m-6 c-col-s-9" data-bind="css: { 'has-error': showError() }">
+                <input id="full-name-input" type="text" data-bind="value: value, focusControl: toFocus, valueUpdate: 'input', enable: !$parent.readOnlyProfile" />
+                <div class="error-message text-md" data-bind="text: errorMessage()"></div>
+            </div>
+        </div>
+        <div class="c-container-fluid fieldset" data-bind="with: email">
+            <label id="email-label" for="email-input" class="c-cell c-col-m-3 c-col-s-12">Correo electrónico de contacto</label>
+            <div class="c-cell c-col-m-6 c-col-s-9" data-bind="css: { 'has-error': showError() }">
+                <input id="email-input" type="text" data-bind="value: value, focusControl: toFocus, valueUpdate: 'input', enable: !$parent.readOnlyProfile" />
+                <div class="error-message text-md" data-bind="text: errorMessage()"></div>
+                <!-- ko if: $parent.hasUnconfirmedEmail() -->
+                <div class="text-md">
+                    <i class="bowtie-icon bowtie-status-warning"></i>
+                    <span>Confirmación pendiente</span>
+                </div>
+                <!-- /ko -->
+            </div>
+        </div>
+        <!-- ko if: readOnlyProfile-->
+        <div class="c-container-fluid">
+            <span>Algunos datos no se pueden editar aquí. &nbsp;</span>
+            <span><a href=https://go.microsoft.com/fwlink/?LinkId=825112 target="_blank">Hacer clic aquí para editar mi información personal</a></span>
+        </div>
+        <!-- /ko -->
+        <div data-bind="aexReact: regionSelection"></div>
+    </div>
+    <div class="c-cell c-col-s-9" data-bind="aexComponent: marketingPreference"></div>
+</div></script>
+    <script id="home-edit-preferences" type="text/html">
+<div class="margin-top-8 spacing-container-8 fill-space" role="tabpanel">
+    <div class="spacing-container-6">
+        <div id="locale-header" class="text-semibold">Configuración regional</div>
+        <div class="c-container-fluid fieldset" data-bind="with: cultureSelection">
+            <label id="preferred-language-label" for="preferred-language-select" class="c-cell c-col-m-3 c-col-s-12">Idioma preferido</label>
+            <div class="c-cell c-col-m-6 c-col-s-9">
+                <select id="preferred-language-select" class="c-select" data-bind="options: options(),
+                        optionsText: 'DisplayName',
+                        optionsValue: 'Language',
+                        value: value"></select>
+            </div>
+        </div>
+        <div class="c-container-fluid fieldset" data-bind="with: dateFormatSelection">
+            <label id="date-pattern-label" for="date-pattern-select" class="c-cell c-col-m-3 c-col-s-12">Patrón de fecha</label>
+            <div class="c-cell c-col-m-6 c-col-s-9">
+                <select id="date-pattern-select" class="c-select" data-bind="options: options(),
+                        optionsText: 'DisplayFormat',
+                        optionsValue: 'Format',
+                        value: value"></select>
+            </div>
+        </div>
+        <div class="c-container-fluid fieldset" data-bind="with: timeFormatSelection">
+            <label id="time-pattern-label" for="time-pattern-select" class="c-cell c-col-m-3 c-col-s-12">Patrón de hora</label>
+            <div class="c-cell c-col-m-6 c-col-s-9">
+                <select id="time-pattern-select" class="c-select" data-bind="options: options(),
+                        optionsText: 'DisplayFormat',
+                        optionsValue: 'Format',
+                        value: value"></select>
+            </div>
+        </div>
+        <div class="c-container-fluid fieldset" data-bind="with: timeZoneSelection">
+            <label id="time-zone-label" for="time-zone-select" class="c-cell c-col-m-3 c-col-s-12">Zona horaria</label>
+            <div class="c-cell c-col-m-6 c-col-s-9">
+                <select id="time-zone-select" class="c-select" data-bind="options: options(),
+                        optionsText: 'DisplayName',
+                        optionsValue: 'Id',
+                        value: value"></select>
+            </div>
+        </div>
+    </div>
+    <div class="spacing-container-6">
+        <div id="user-interface-header" class="text-semibold">Interfaz de usuario</div>        
+
+        <div class="c-container-fluid fieldset" data-bind="with: workItemFormChromeBorderSelection">
+            <label id="ui-work-item-form-chrome-border-label" for="ui-work-item-form-chrome-border-select" class="c-cell c-col-m-3 c-col-s-12">Formulario de elemento de trabajo</label>
+            <div class="c-cell c-col-m-6 c-col-s-9">
+                <select id="ui-work-item-form-chrome-border-select" class="c-select" data-bind="options: options(),
+                    optionsText: 'OptionName',
+                    optionsValue: 'OptionValue',
+                    value: value"></select>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+    <script id="home-home" type="text/html">
+<div class="c-container-fluid c-grid-pad-16">
+    <div class="c-cell c-col-m-4 c-col-s-12 no-pad-t spacing-container-8">
+        <div data-bind="aexReact: profileView"></div>
+        <hr class="c-divider" />
+        <div class="spacing-container-3">
+            <div id="benefits-title" class="c-heading-5">Visual Studio Dev Essentials</div>
+            <p id="benefits-description" class="text-muted">Obtenga todo lo que necesita para compilar e implementar aplicaciones en cualquier plataforma.</p>
+            <div class="breadcrumb">
+                <a id="benefits-link" href="https://go.microsoft.com/fwlink/?LinkID=328777" target="_blank" data-bind="click: goToBenefitsLink.click" title="Use sus ventajas">Use sus ventajas</a>
+                
+            </div>
+        </div>
+        <div data-bind="visible: authorizations.visible(), aexComponent: authorizations"></div>
+        <div data-bind="aexReact: applicationList"></div>
+    </div>
+    <div class="c-vertical-divider c-col-m"></div>
+    <div class="c-cell c-col-m-8 c-col-s-12" data-bind="aexReact: accountList"></div>
+</div></script>
+    <script id="profile-marketingpreference" type="text/html">
+<!-- ko if: showAction() -->
+
+<!-- ko if: itemizeMarketingPreferences() -->
+<label class="marketing-preference-text">
+    <span data-bind="text: messageText()"></span>
+</label>
+<div class="checkbox">
+    <label class="marketing-preference-text">
+        <input id="marketing-preference-checkbox" type="checkbox" data-bind="checked: adoMarketingOptIn">
+        <span>Azure DevOps</span>
+    </label>
+</div>
+<div class="checkbox"> 
+   <label class="marketing-preference-text">
+        <input id="marketing-preference-checkbox" type="checkbox" data-bind="checked: vsMarketingOptIn">
+        <span>Visual Studio</span>
+    </label>
+</div>
+<div class="checkbox">
+    <label class="marketing-preference-text">
+        <input id="marketing-preference-checkbox" type="checkbox" data-bind="checked: vsSubscriptionMarketingOptIn">
+        <span>Visual Studio Subscriptions (program emails highlighting available benefits for paid subscribers and administrators)</span>
+    </label>
+</div>
+<!-- /ko -->
+<!-- ko ifnot: itemizeMarketingPreferences() -->
+<div class="checkbox">
+    <label class="marketing-preference-text">
+        <input id="marketing-preference-checkbox" type="checkbox" data-bind="checked: isOptedIn">
+        <span data-bind="text: messageText()"></span>
+    </label>
+</div>
+<!-- /ko -->
+<!-- /ko -->
+<!-- ko ifnot: showAction() -->
+<p class="marketing-preference-text" data-bind="text: messageText()"></p>
+<!-- /ko -->
+<!-- ko if: showDataTransferNotice() -->
+<p class="data-transfer-notice-text">
+    <span data-bind="text: dataTransferNoticeText()"></span>
+    <a class="link-privacy-statement" href="https://go.microsoft.com/fwlink/?LinkID=264782" target="_blank">Declaración de privacidad</a>
+</p>
+<!-- /ko -->
+</script>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+            </div>
+            <div role="navigation">
+                
+        
+<div id="ux-footer">
+    <div class="footerContainer">
+        <div id="fourColumnFooter">
+                <div class="ListOfLinkLists">
+                    <div class="listTitle">Azure DevOps</div>
+                    <div class="linkList">
+                        <ul class="links">
+                            <li>
+                                <a href="https://aka.ms/azdev-home">Inicio de Azure DevOps</a>
+                            </li>
+                            <li>
+                                 <a href="https://aka.ms/azdev-pipelines">Azure Pipelines</a>
+
+                            </li>
+                            <li>
+                                 <a href="https://aka.ms/azdev-boards">Azure Boards</a>
+                            </li>
+                            <li>
+                                 <a href="https://aka.ms/azdev-repos">Azure Repos</a>
+                            </li>
+                            <li>
+                                <a href="https://aka.ms/azdev-artifacts">Azure Artifacts</a>
+                            </li>
+                            <li>
+                                <a href="https://aka.ms/azdev-testplans">Azure Test Plans</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="ListOfLinkLists">
+                <div class="listTitle">Visual Studio</div>
+                <div class="linkList">
+                    <ul class="links">
+                        <li>
+                            <a href="https://www.visualstudio.com">Página principal de Visual Studio</a>
+                        </li>
+                        <li>
+                            <a href="https://manage.visualstudio.com">Administrar Visual Studio</a>
+                        </li>
+                        <li>
+                            <a href="https://marketplace.visualstudio.com">Marketplace</a>
+                        </li>
+                        <li>
+                            <a href="https://www.visualstudio.com/integrate">Integración</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ListOfLinkLists">
+                <div class="listTitle">Sitios relacionados</div>
+                <div class="linkList">
+                    <ul class="links">
+                        <li>
+                            <a href="https://msdn.microsoft.com">Página principal de MSDN</a>
+                        </li>
+                        <li>
+                            <a href="https://channel9.msdn.com">Channel 9</a>
+                        </li>
+                        <li>
+                            <a href="https://azure.microsoft.com/">Azure</a>
+                        </li>
+                        <li>
+                            <a href="https://msdn.microsoft.com/library/vstudio">Documentación de Visual Studio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ListOfLinkLists">
+                <div class="listTitle">Productos</div>
+                <div class="linkList">
+                    <ul class="links">
+                        <li>
+                            <a href="https://www.visualstudio.com/products/vs-2015-product-editions">Visual Studio</a>
+                        </li>
+                        <li>
+                            <a href="https://code.visualstudio.com">Visual Studio Code</a>
+                        </li>
+                        <li>
+                            <a href="https://my.visualstudio.com/downloads">Descargas</a>
+                        </li>
+                        <li>
+                            <a href="https://www.visualstudio.com/products/compare-visual-studio-2015-products-vs">Comparar</a>
+                        </li>
+                        <li>
+                            <a href="https://www.visualstudio.com/products/how-to-buy-vs">Cómo comprar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ListOfLinkLists">
+                <div class="listTitle">Soporte técnico</div>
+                <div class="linkList">
+                    <ul class="links">
+                        <li>
+                           <a href="https://www.visualstudio.com/my/myvsfaq">P+F</a>
+                        </li>
+                            <li>
+                                <a href="https://aka.ms/azdev-support">Soporte técnico de Azure DevOps</a>
+                            </li>
+                        <li>
+                            <a href="https://www.visualstudio.com/support/support-overview-vs">Soporte técnico de Visual Studio</a>
+                        </li>
+                        <li>
+                            <a href="https://aka.ms/vsts-submit-a-bug">Enviar un error</a>
+                        </li>
+                        <li>
+                            <a href="https://visualstudio.uservoice.com/forums/121579-visual-studio">Enviar una idea</a>
+                        </li>
+                        <li>
+                            <a href="https://social.msdn.microsoft.com/forums/vstudio/en-us/home?category=visualstudio%2cvslanguages%2cvstfs%2cnetdevelopment%2cvsarch">Foros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="baseFooter">
+            <div id="baseFooterLinks">
+                <div class="linkList">
+                    <ul class="links horizontal">
+                        <li>
+                            <a href="https://aka.ms/vsts-support">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="https://www.visualstudio.com/news/visual-studio-hiring-overview-vs">Trabajos</a>
+                        </li>
+                        <li>
+                            <a href="https://go.microsoft.com/fwlink/?linkid=131004">Privacidad</a>
+                        </li>
+                        <li>
+                            <a href="https://go.microsoft.com/fwlink/?LinkID=266231">Términos de uso</a>
+                        </li>
+                        <li>
+                            <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx">Marcas comerciales</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="rightBaseFooter">
+                <span class="microsoftCopyright">© 2018 Microsoft</span>
+                <span class="microsoftLogo" title="Microsoft"></span>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+    
+            </div>
+        </div>
+    </div>
+    <script nonce="" type="text/javascript">if (window.performance && window.performance.mark) { window.performance.mark('startLoadBundleOuter-common'); }</script>
+<script data-bundlelength="232324" data-bundlename="common" data-includedscripts="VSS/Fonts/TextFonts;VSS/Fonts/IconFonts;VSS/Bundling" nonce="" src="https://cdn.vsassets.io/bundles/vss-bundle-common-vcSEyj4t5vUBMsYYCsRPQlPrzG8-tbKLHsmR4mUVhzdE=" type="text/javascript"></script>
+<script nonce="" type="text/javascript">if (window.performance && window.performance.mark) { window.performance.mark('endLoadBundleOuter-common'); }</script>
+<script nonce="" type="text/javascript">if (window.performance && window.performance.mark) { window.performance.mark('startLoadBundleOuter-view'); }</script>
+<script data-bundlelength="902217" data-bundlename="view" data-includedscripts="Profile/Scripts/Components/Hub" nonce="" src="https://cdn.vsassets.io/bundles/vss-bundle-view-vbuOoJg7-EKOyce2Qd3Nk8RtV1BmhUq5GvOiL4ZZowl0=" type="text/javascript"></script>
+<script nonce="" type="text/javascript">if (window.performance && window.performance.mark) { window.performance.mark('endLoadBundleOuter-view'); }</script>
+
+<script type="text/javascript" nonce=""> if (window.performance && window.performance.mark) { window.performance.mark('requireStart'); }
+require(["VSS/Fonts/TextFonts","VSS/Fonts/IconFonts","Profile/Scripts/Components/Hub"], function(){  if (window.performance && window.performance.mark) { window.performance.mark('requireEnd'); } window.requiredModulesLoaded=true;  });
+</script>
+
+
+
+<div class="vss-error-handler-section"><div class="error-dialog"></div></div></body></html>

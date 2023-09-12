@@ -1,0 +1,128 @@
+columnId;tittleTestPlan;assignedTo;area;iteration;description;typeTestPlan;relatedParent;fieldRelated;relatedHu;;;;
+1;TEST PLAN EVC00037_ 4293808 SPRINT 171;Victor Manuel Torres;Vicepresidencia Servicios de Tecnologia\Entorno Gestion y Uso de la Informacion\EVC - DATOS ANALITICA E IA\DAIA 16 - DATACORE;Vicepresidencia Servicios de Tecnologia\2023\Sprint 171;"Alcance
+Se valida que los logs estan correctos y no se encuentren errores que desencadenen una falla
+
+Historia de usuario:
+
+              HU4293808 | ( Julian Rivera Gutierrez ) ingesta de la tabla p_prg_usuarioserv fuente conocida | AW1003001_BigDataCompany | Release-1234 | trunk.20230726.1 |           Lineas impactadas: 
+N/A 
+
+Equipo de trabajo:
+Scrum Master:  Xiomara Munoz Cabas
+Product Owner: Yamile Onedy Buritica Morales
+Transformacion: N/A
+Disponibilidad del Servicio: N/A
+Seguridad Corporativa: Julio Cesar Perez Calderon
+Certificacion Funcional: Fabian Alexander Pineda Valencia, Juan David Potes Medina
+Supuestos y limitaciones: 
+Supuestos:
+1. Se cuenta con el ambiente de pruebas estable y controlado, alineado al ambiente de produccion. 
+2. Se cuenta con los usuarios y accesos a los diferentes recursos. 
+
+ 
+Limitaciones:
+1. Ambiente inestable y con fallas, para la ejecucion de las pruebas. 
+2. Falta de acceso al ambiente de pruebas. 
+3. Solucion de errores tarde mas de lo establecido, retrasando las pruebas.";Ambos;4183772;Related;4293808;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+DATOS GENERALES;;;;;;;;;;;;;
+idTypeCertification;TypeCertification;AssignedTo;Sprint;#HU;Celula;Tema Hu;Tema PR;#Release;Trunk;Pipeline;HuDescription;Scope;100
+2;Ingestión;Victor Manuel Torres;171;4293808;DAIA 16 - DATACORE;( Julian Rivera Gutierrez ) ingesta de la tabla p_prg_usuarioserv fuente conocida;ingesta de la tabla p_prg_usuarioserv fuente conocida;1234;trunk.20230726.1;AW1003001_BigDataCompany;HU4293808 | ( Julian Rivera Gutierrez ) ingesta de la tabla p_prg_usuarioserv fuente conocida | AW1003001_BigDataCompany | Release-1234 | trunk.20230726.1 | ;"Alcance
+Se valida que los logs estan correctos y no se encuentren errores que desencadenen una falla
+
+Historia de usuario:
+
+  ";"Lineas impactadas: 
+N/A 
+
+Equipo de trabajo:
+Scrum Master:  Xiomara Munoz Cabas
+Product Owner: Yamile Onedy Buritica Morales
+Transformacion: N/A
+Disponibilidad del Servicio: N/A
+Seguridad Corporativa: Julio Cesar Perez Calderon
+Certificacion Funcional: Fabian Alexander Pineda Valencia, Juan David Potes Medina
+Supuestos y limitaciones: 
+Supuestos:
+1. Se cuenta con el ambiente de pruebas estable y controlado, alineado al ambiente de produccion. 
+2. Se cuenta con los usuarios y accesos a los diferentes recursos. 
+
+ 
+Limitaciones:
+1. Ambiente inestable y con fallas, para la ejecucion de las pruebas. 
+2. Falta de acceso al ambiente de pruebas. 
+3. Solucion de errores tarde mas de lo establecido, retrasando las pruebas."
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+Lista de integrantes;;;;;;;;;;;;;
+Ana Ruth Morales Garcia;;;;;;;;;;;;;
+Alejandro Narvaez Gonzalez;;;;;;;;;;;;;
+Andres Felipe Henao Arias;;;;;;;;;;;;;
+Andres Felipe Jaramillo Osorio;;;;;;;;;;;;;
+Andres Felipe Molina Callejas;;;;;;;;;;;;;
+Andres Felipe Orrego Quintero;;;;;;;;;;;;;
+Carlos Daniel Mesa Franco;;;;;;;;;;;;;
+Carolina Maria Londono Pacheco;;;;;;;;;;;;;
+Cesar Augusto Saenz Jimenez;;;;;;;;;;;;;
+Cesar Augusto Velez Piedrahita;;;;;;;;;;;;;
+Daniel Esteban Galvis Sandoval;;;;;;;;;;;;;
+Edison Camilo Tobon Fernandez;;;;;;;;;;;;;
+Evelin Franco Caballero;;;;;;;;;;;;;
+Fabian Alexander Pineda Valencia;;;;;;;;;;;;;
+Felix Daniel Valderrama Pineda;;;;;;;;;;;;;
+Gustavo Alejandro Villalobos Salas;;;;;;;;;;;;;
+Gustavo Andres Arboleda Batero;;;;;;;;;;;;;
+Johan Alejandro Corpus Gaitan;;;;;;;;;;;;;
+Jose Fernando Bedoya Guevara;;;;;;;;;;;;;
+Juan David Galvis Lopez;;;;;;;;;;;;;
+Juan David Potes Medina;;;;;;;;;;;;;
+Juan Diego Saldarriaga Rojas;;;;;;;;;;;;;
+Juan Esteban Arroyave Zapata;;;;;;;;;;;;;
+Juan Pablo Florez Caicedo;;;;;;;;;;;;;
+Julian Andres Sanchez Bedoya;;;;;;;;;;;;;
+Julio Cesar Perez Calderon;;;;;;;;;;;;;
+Leidy Johana Correa Gomez;;;;;;;;;;;;;
+Luis Alberto Ramirez Jaramillo;;;;;;;;;;;;;
+Mateo Echavarria Castano;;;;;;;;;;;;;
+Sara Castano Montoya;;;;;;;;;;;;;
+Victor Manuel Torres;;;;;;;;;;;;;

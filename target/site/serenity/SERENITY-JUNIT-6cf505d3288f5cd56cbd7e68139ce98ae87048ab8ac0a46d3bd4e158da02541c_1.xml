@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Certification" skipped="0" tests="1" time="0.22" timestamp="2023-08-07 11:20:10"><testcase name="Login Bancolombia"><error message="No stage available - it looks like you haven't called the setTheStage() method before calling this one." type="net.serenitybdd.screenplay.actors.NoStageException">No stage available - it looks like you haven't called the setTheStage() method before calling this one.</error><system-err>No stage available - it looks like you haven't called the setTheStage() method before calling this one.&#13;
+co.com.bancolombia.certification.stepsdefinitions.HomeStepDefinition.thatTheUserIsSuccessfullyLoggedIn(HomeStepDefinition.java:33)&#13;
+✽.that the user is successfully logged in(file:///C:/Users/Scastaño/IdeaProjects/Automation_Certification/src/test/resources/features/home_bancolombia.feature:11)&#13;
+</system-err></testcase></testsuite>
