@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Certification" skipped="0" tests="1" time="135.29" timestamp="2023-08-13 10:14:32"><testcase name="Login Bancolombia"><failure message="Expected enabled element was not clickable" type="java.lang.AssertionError">Expected enabled element was not clickable</failure><system-err>Expected enabled element was not clickable&#13;
-co.com.bancolombia.certification.tasks.HomePageTask.performAs(HomePageTask.java:34)&#13;
-co.com.bancolombia.certification.stepsdefinitions.HomeStepDefinition.weFillInTheTestPlanFields(HomeStepDefinition.java:50)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Certification" skipped="0" tests="1" time="10.36" timestamp="2023-09-24 05:44:18"><testcase name="Login Bancolombia"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+co.com.bancolombia.certification.models.DataCertification.&lt;init&gt;(DataCertification.java:46)&#13;
+co.com.bancolombia.certification.models.builders.DataBuilder.build(DataBuilder.java:251)&#13;
+co.com.bancolombia.certification.stepsdefinitions.HomeStepDefinition.weFillInTheTestPlanFields(HomeStepDefinition.java:48)&#13;
+✽.we fill in the test plan fields(src/test/resources/features/home_bancolombia.feature:12)&#13;
 </system-err></testcase></testsuite>

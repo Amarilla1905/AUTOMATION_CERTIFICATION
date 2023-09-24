@@ -28,12 +28,4 @@ public class TestPlanPageEvidence {
     public static final Target BTN_SAVE_ADD_RELATED_PARENT = Target.the("Button save of Parent related ").locatedBy("//button[@class='bolt-button enabled primary bolt-focus-treatment']");
 
 
-
-
-
-
-
-
-
-
 }

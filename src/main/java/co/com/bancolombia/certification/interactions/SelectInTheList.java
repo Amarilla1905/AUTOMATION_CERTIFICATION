@@ -2,7 +2,6 @@ package co.com.bancolombia.certification.interactions;
 
 
 
-import co.com.bancolombia.certification.userinterfaces.TestPlanPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Tasks;
@@ -17,14 +16,16 @@ public class SelectInTheList implements Interaction {
 
     private Target inputTarget;
     private String option;
+    private Target userI;
 
-    public SelectInTheList(Target inputTarget, String option) {
+    public SelectInTheList(Target inputTarget, Target userI,String option) {
         this.inputTarget = inputTarget;
+        this.userI = userI;
         this.option = option;
     }
 
-    public static SelectInTheList theOption(Target inputTarget, String option) {
-        return Tasks.instrumented(SelectInTheList.class, inputTarget, option);
+    public static SelectInTheList theOption(Target inputTarget, Target userI,String option) {
+        return Tasks.instrumented(SelectInTheList.class, inputTarget,userI,option  );
     }
 
     @Step("{0} Select The List The Option '#option'")
@@ -32,7 +33,7 @@ public class SelectInTheList implements Interaction {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(WaitUntil.the(inputTarget, isVisible()).forNoMoreThan(5).seconds(),
                 Click.on(inputTarget),
-                WaitUntil.the(TestPlanPage.OPTION_LIST.of(option),isVisible()).forNoMoreThan(10).seconds(),
-                Click.on(TestPlanPage.OPTION_LIST.of(option)));
+                WaitUntil.the(userI.of(option),isVisible()).forNoMoreThan(10).seconds(),
+                Click.on(userI.of(option)));
     }
 }
