@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-public class HomeStepDefinition{
+public class HomeStepDefinitionTP {
 
 
     @Before

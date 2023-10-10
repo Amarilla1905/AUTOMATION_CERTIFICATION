@@ -4,7 +4,7 @@ Feature: Certification
   i want to access azure
   to perform the certification process
 
-  @BancolombiaLogin
+  @TestPlan
 
   Scenario: Login Bancolombia
 

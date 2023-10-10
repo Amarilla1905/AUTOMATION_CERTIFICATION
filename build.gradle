@@ -1,7 +1,7 @@
 version '1.0-SNAPSHOT'
 
-tasks.withType(JavaCompile){ options.encoding = 'UTF-8' }
-group 'org.example'
+group 'co.com.bancolombia.certification'
+defaultTasks 'clean', 'test', 'aggregate'
 
 repositories {
     maven { url  'https://artifactory.apps.bancolombia.com/maven-bancolombia'}

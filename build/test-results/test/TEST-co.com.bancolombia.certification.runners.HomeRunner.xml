@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="co.com.bancolombia.certification.runners.HomeRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="QV-3978" time="0.0">
   <properties/>
-  <system-out><![CDATA[12:19:34.979 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Scastaño/Bancolombia%20projects/Automation_Certification/src/test/resources/features/home_bancolombia.feature
-12:19:35.219 [Test worker] INFO  - 
+  <system-out><![CDATA[16:06:27.144 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Scastaño/Bancolombia%20projects/Automation_Certification/src/test/resources/features/home_bancolombia.feature
+16:06:27.352 [Test worker] INFO  - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -18,32 +18,32 @@
  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
 -------------------------------------------------------------------------------------
 
-12:19:35.223 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f550b519
-12:19:35.227 [Test worker] INFO  - Test Suite Started: Certification
-12:19:35.244 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Scastaño/Bancolombia%20projects/Automation_Certification/src/test/resources/features/home_bancolombia.feature
-12:19:35.247 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f550b519
-12:19:35.248 [Test worker] INFO  - Test Suite Started: Certification
-12:19:40.604 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-12:19:40.626 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:50043 : 1
-12:19:40.626 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0x45a3911a, L:/127.0.0.1:57191 ! R:localhost/127.0.0.1:50043] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
-12:19:40.627 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0x45a3911a, L:/127.0.0.1:57191 ! R:localhost/127.0.0.1:50043]
-12:19:40.627 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 1 connections out of 1 in 1 ms
-12:19:40.814 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-12:19:40.828 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@e5dd21
-12:19:40.830 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia
-12:19:40.830 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@e5dd21: Generating report for test outcome: Certification:Login Bancolombia
-12:19:40.840 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Login Bancolombia to file C:\Users\Scastaño\Bancolombia projects\Automation_Certification\target\site\serenity\bc857cc90ee9399a133e2f9731166ea7a21e6f1b9bad6fd1606ec9235b584c26.json (using temp file C:\Users\Scastaño\Bancolombia projects\Automation_Certification\target\site\serenity\bc857cc90ee9399a133e2f9731166ea7a21e6f1b9bad6fd1606ec9235b584c26.json45bdb845-beb5-44d5-a0a5-578813fd7682)
-12:19:40.891 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia done
-12:19:40.891 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-12:19:40.891 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 63 ms
-12:19:40.891 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@a57a81e
-12:19:40.891 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia
-12:19:40.892 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@a57a81e: Generating report for test outcome: Certification:Login Bancolombia
-12:19:41.518 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia done
-12:19:41.518 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-12:19:41.518 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 627 ms
+16:06:27.356 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f550b519
+16:06:27.360 [Test worker] INFO  - Test Suite Started: Certification
+16:06:27.381 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Scastaño/Bancolombia%20projects/Automation_Certification/src/test/resources/features/home_bancolombia.feature
+16:06:27.384 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f550b519
+16:06:27.384 [Test worker] INFO  - Test Suite Started: Certification
+16:06:32.445 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+16:06:32.626 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+16:06:32.646 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@e5dd21
+16:06:32.649 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia
+16:06:32.649 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@e5dd21: Generating report for test outcome: Certification:Login Bancolombia
+16:06:32.660 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Login Bancolombia to file C:\Users\Scastaño\Bancolombia projects\Automation_Certification\target\site\serenity\bc857cc90ee9399a133e2f9731166ea7a21e6f1b9bad6fd1606ec9235b584c26.json (using temp file C:\Users\Scastaño\Bancolombia projects\Automation_Certification\target\site\serenity\bc857cc90ee9399a133e2f9731166ea7a21e6f1b9bad6fd1606ec9235b584c26.jsone687ef71-2cd9-41e9-997d-e1a549f06711)
+16:06:32.679 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53741 : 1
+16:06:32.679 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0x4ca04b0a, L:/127.0.0.1:57903 ! R:localhost/127.0.0.1:53741] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+16:06:32.679 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0x4ca04b0a, L:/127.0.0.1:57903 ! R:localhost/127.0.0.1:53741]
+16:06:32.679 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 1 connections out of 1 in 0 ms
+16:06:32.701 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia done
+16:06:32.701 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+16:06:32.701 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 55 ms
+16:06:32.701 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@a57a81e
+16:06:32.702 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia
+16:06:32.702 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@a57a81e: Generating report for test outcome: Certification:Login Bancolombia
+16:06:33.438 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia done
+16:06:33.438 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+16:06:33.438 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 736 ms
 ]]></system-out>
-  <system-err><![CDATA[Oct 10, 2023 12:19:34 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
+  <system-err><![CDATA[Oct 10, 2023 4:06:27 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
 WARNING: Failed to load class 'co.com.bancolombia.certification.stepsdefinitions.HomeStepDefinition_1'.
 By default Cucumber scans the entire classpath for step definitions.
 You can restrict this by configuring the glue path.
