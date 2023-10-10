@@ -2,7 +2,6 @@ package co.com.bancolombia.certification.interactions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
-import org.apache.xpath.objects.XNumber;
 import org.openqa.selenium.WebDriver;
 
 public class  SwitchToFrame implements Interaction {
@@ -22,6 +21,7 @@ public class  SwitchToFrame implements Interaction {
         @Override
         public <T extends Actor> void performAs(T actor) {
             driver.switchTo().frame(number);
+           
         }
 
         public static SwitchToFrame switchToIframe(WebDriver driver, int number) {

@@ -19,7 +19,7 @@ public class Pause {
             @Override
             public <T extends Actor> void performAs(T actor) {
                 try {
-                    Thread.sleep(seconds * 10000);
+                    Thread.sleep(seconds * 1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

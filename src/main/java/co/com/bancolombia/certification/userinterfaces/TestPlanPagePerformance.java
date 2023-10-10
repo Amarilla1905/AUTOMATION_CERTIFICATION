@@ -9,4 +9,5 @@ public class TestPlanPagePerformance {
     public static final Target TXT_NAME_OF_APPLICATION_SOLUTION = Target.the("Enter the name of the application").locatedBy("//input[@id='__bolt-Nombre-del-Aplicativo-Soluci-n-input']");
 
 
+
 }
