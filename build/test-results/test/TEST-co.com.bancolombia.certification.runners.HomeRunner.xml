@@ -1,111 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.com.bancolombia.certification.runners.HomeRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="QV-3978" time="0.0">
+<testsuite name="co.com.bancolombia.certification.runners.HomeRunner" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-19T22:33:08" hostname="QV-3978" time="0.0">
   <properties/>
-  <system-out><![CDATA[16:06:27.144 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Scastaño/Bancolombia%20projects/Automation_Certification/src/test/resources/features/home_bancolombia.feature
-16:06:27.352 [Test worker] INFO  - 
-
--------------------------------------------------------------------------------------
-     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
-    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
-   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
-    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
-.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
-|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
-                                                                                     
- News and tutorials at http://www.serenity-bdd.info                                  
- Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
- Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
- Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
--------------------------------------------------------------------------------------
-
-16:06:27.356 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f550b519
-16:06:27.360 [Test worker] INFO  - Test Suite Started: Certification
-16:06:27.381 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Scastaño/Bancolombia%20projects/Automation_Certification/src/test/resources/features/home_bancolombia.feature
-16:06:27.384 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f550b519
-16:06:27.384 [Test worker] INFO  - Test Suite Started: Certification
-16:06:32.445 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-16:06:32.626 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-16:06:32.646 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@e5dd21
-16:06:32.649 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia
-16:06:32.649 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@e5dd21: Generating report for test outcome: Certification:Login Bancolombia
-16:06:32.660 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Login Bancolombia to file C:\Users\Scastaño\Bancolombia projects\Automation_Certification\target\site\serenity\bc857cc90ee9399a133e2f9731166ea7a21e6f1b9bad6fd1606ec9235b584c26.json (using temp file C:\Users\Scastaño\Bancolombia projects\Automation_Certification\target\site\serenity\bc857cc90ee9399a133e2f9731166ea7a21e6f1b9bad6fd1606ec9235b584c26.jsone687ef71-2cd9-41e9-997d-e1a549f06711)
-16:06:32.679 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53741 : 1
-16:06:32.679 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0x4ca04b0a, L:/127.0.0.1:57903 ! R:localhost/127.0.0.1:53741] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
-16:06:32.679 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0x4ca04b0a, L:/127.0.0.1:57903 ! R:localhost/127.0.0.1:53741]
-16:06:32.679 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 1 connections out of 1 in 0 ms
-16:06:32.701 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia done
-16:06:32.701 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-16:06:32.701 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 55 ms
-16:06:32.701 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@a57a81e
-16:06:32.702 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia
-16:06:32.702 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@a57a81e: Generating report for test outcome: Certification:Login Bancolombia
-16:06:33.438 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Certification:Login Bancolombia done
-16:06:33.438 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-16:06:33.438 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 736 ms
-]]></system-out>
-  <system-err><![CDATA[Oct 10, 2023 4:06:27 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
-WARNING: Failed to load class 'co.com.bancolombia.certification.stepsdefinitions.HomeStepDefinition_1'.
-By default Cucumber scans the entire classpath for step definitions.
-You can restrict this by configuring the glue path.
-
-Examples:
- - @CucumberOptions(glue = "com.example.application")
- - @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.example.application") - src/test/resources/junit-platform.properties   cucumber.glue=com.example.application
- - src/test/resources/cucumber.properties         cucumber.glue=com.example.application
-
-java.lang.NoClassDefFoundError: co/com/bancolombia/certification/stepsdefinitions/HomeStepDefinition_1 (wrong name: co/com/bancolombia/certification/stepsdefinitions/HomeStepDefinition)
-	at java.lang.ClassLoader.defineClass1(Native Method)
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
-	at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
-	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	at io.cucumber.core.resource.ClasspathScanner.safelyLoadClass(ClasspathScanner.java:107)
-	at io.cucumber.core.resource.ClasspathScanner.lambda$processClassFiles$5(ClasspathScanner.java:99)
-	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
-	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
-	at java.nio.file.Files.walkFileTree(Files.java:2670)
-	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
-	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
-	at io.cucumber.core.resource.ClasspathScanner.findClassesForUri(ClasspathScanner.java:73)
-	at io.cucumber.core.resource.ClasspathScanner.lambda$findClassesForUris$3(ClasspathScanner.java:65)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
-	at io.cucumber.core.resource.ClasspathScanner.findClassesForUris(ClasspathScanner.java:68)
-	at io.cucumber.core.resource.ClasspathScanner.scanForClassesInPackage(ClasspathScanner.java:52)
-	at io.cucumber.core.resource.ClasspathScanner.scanForClassesInPackage(ClasspathScanner.java:115)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485)
-	at io.cucumber.java.JavaBackend.loadGlue(JavaBackend.java:40)
-	at io.cucumber.core.runner.Runner.<init>(Runner.java:56)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.createRunner(ThreadLocalRunnerSupplier.java:47)
-	at java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
-	at java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
-	at java.lang.ThreadLocal.get(ThreadLocal.java:172)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.get(ThreadLocalRunnerSupplier.java:40)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:35)
-	at io.cucumber.core.runtime.CucumberExecutionContext.getRunner(CucumberExecutionContext.java:155)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runBeforeAllHooks(CucumberExecutionContext.java:106)
-	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:283)
+  <testcase name="classMethod" classname="co.com.bancolombia.certification.runners.HomeRunner" time="0.0">
+    <failure message="net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate configuration report" type="net.thucydides.core.reports.ReportGenerationFailedError">net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate configuration report
+	at net.thucydides.core.reports.ReportService.waitForReportGenerationToFinish(ReportService.java:211)
+	at net.thucydides.core.reports.ReportService.generateReportsFor(ReportService.java:188)
+	at net.thucydides.core.reports.ReportService.generateReportsFor(ReportService.java:134)
+	at io.cucumber.core.plugin.SerenityReporter.generateReports(SerenityReporter.java:993)
+	at io.cucumber.core.plugin.SerenityReporter.handleTestRunFinished(SerenityReporter.java:377)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:111)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:98)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:291)
 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
@@ -138,22 +46,31 @@ java.lang.NoClassDefFoundError: co/com/bancolombia/certification/stepsdefinition
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:750)
-
-?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
-?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
-?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
-?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
-?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
-?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
-?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
-?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
-?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
-?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
-?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
-?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
-?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
-?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
-?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
-?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+Caused by: java.util.concurrent.ExecutionException: java.lang.NoSuchMethodError: org.apache.commons.lang3.time.StopWatch.formatSplitTime()Ljava/lang/String;
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at net.thucydides.core.reports.ReportService.waitForReportGenerationToFinish(ReportService.java:208)
+	... 42 more
+Caused by: java.lang.NoSuchMethodError: org.apache.commons.lang3.time.StopWatch.formatSplitTime()Ljava/lang/String;
+	at net.thucydides.core.requirements.MultiSourceRequirementsService.getRequirements(MultiSourceRequirementsService.java:46)
+	at net.thucydides.core.requirements.BaseRequirementsService.getRequirementTypes(BaseRequirementsService.java:191)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:186)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:104)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Scastaño/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.10/f69d97ef3335c6ab82fc21dfb77ac613f90c1221/logback-classic-1.2.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 ]]></system-err>
 </testsuite>
