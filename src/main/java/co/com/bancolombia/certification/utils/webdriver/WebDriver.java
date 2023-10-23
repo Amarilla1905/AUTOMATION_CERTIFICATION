@@ -1,44 +1,58 @@
 package co.com.bancolombia.certification.utils.webdriver;
 
 import co.com.bancolombia.certification.utils.Url;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.UnexpectedAlertBehaviour;
+import net.thucydides.core.webdriver.SerenityWebdriverManager;
+
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.CapabilityType;
+
+
+
+import java.util.concurrent.TimeUnit;
+
+
 
 public class WebDriver {
+
+
+
     private ChromeDriver driver;
 
     private ChromeOptions chromeOptions;
 
+
+
     private WebDriver() {
 
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/files/chromedriver.exe");
+
         chromeOptions = new ChromeOptions();
-        WebDriverManager.chromedriver().setup();
-        chromeOptions.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR,  UnexpectedAlertBehaviour.ACCEPT);
-        chromeOptions.addArguments
-                ("--lang=es,--disabel-popup-blocking,--disable.download-notification,\\\n" +
-                        "  --start-maximized,--test-type,--disable-extension,--force-device-scale-factor=0.7");
+
+        chromeOptions.addArguments("--binary --start-maximized --ignore-certificate-errors --disable-download-notification");
 
         driver = new ChromeDriver(chromeOptions);
 
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+        SerenityWebdriverManager.inThisTestThread().setCurrentDriverTo(driver);
 
     }
+
     public ChromeDriver testPlan() {
-
         driver.get(Url.URL);
-
         return driver;
-
     }
 
     public static WebDriver inLZ() {
-
         return new WebDriver();
-
     }
 
+    public static void main(String[] args) {
+        WebDriver webDriver = new WebDriver();
+        ChromeDriver driver = webDriver.testPlan();
 
-
+        // Verifica la URL abierta
+        System.out.println("URL opened: " + driver.getCurrentUrl());
+    }
 }

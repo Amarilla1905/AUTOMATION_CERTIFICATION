@@ -34,8 +34,8 @@ targetCompatibility = 1.8
 
 ext {
     slf4jVersion = '1.7.7'
-    serenityCoreVersion = '3.2.1'
-    serenityCucumberVersion = '3.2.1'
+    serenityCoreVersion = '3.6.0'
+    serenityCucumberVersion = '3.6.0'
     junitVersion = '4.13.1'
     assertJVersion = '3.8.0'
     logbackVersion = '1.2.10'
@@ -47,6 +47,7 @@ dependencies {
     implementation "ch.qos.logback:logback-classic:${logbackVersion}"
     implementation "net.serenity-bdd:serenity-screenplay-webdriver:$rootProject.ext.serenityCoreVersion"
     implementation group: 'com.codoid.products', name: 'fillo', version: '1.21'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.5.3'
 
 
     testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
