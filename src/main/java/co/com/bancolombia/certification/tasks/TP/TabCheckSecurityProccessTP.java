@@ -1,4 +1,4 @@
-package co.com.bancolombia.certification.tasks;
+package co.com.bancolombia.certification.tasks.TP;
 
 import co.com.bancolombia.certification.interactions.Pause;
 import co.com.bancolombia.certification.interactions.SwitchToFrame;
@@ -12,10 +12,8 @@ import net.serenitybdd.screenplay.actions.MoveMouse;
 import net.serenitybdd.screenplay.actions.Switch;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
-import javax.xml.crypto.Data;
-
-import static co.com.bancolombia.certification.userinterfaces.TestPlanCheckListSecurity.*;
-import static co.com.bancolombia.certification.userinterfaces.TestPlanCheckListSecurity.RESTORE_PERFORMANCE_TECHNICAL_INFORMATION_SECURITY;
+import static co.com.bancolombia.certification.userinterfaces.TP.TestPlanCheckListSecurity.*;
+import static co.com.bancolombia.certification.userinterfaces.TP.TestPlanCheckListSecurity.RESTORE_PERFORMANCE_TECHNICAL_INFORMATION_SECURITY;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
@@ -47,7 +45,8 @@ public class TabCheckSecurityProccessTP implements Task {
                 Switch.toDefaultContext(),
                 WaitUntil.the(RESTORE_PERFORMANCE_TECHNICAL_INFORMATION_SECURITY,isClickable()).forNoMoreThan(20).seconds(),
                 Click.on(RESTORE_PERFORMANCE_TECHNICAL_INFORMATION_SECURITY),
-                Pause.forSeconds(5)
+                Pause.forSeconds(2)
+
                 );
 
     }

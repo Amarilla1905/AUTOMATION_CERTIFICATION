@@ -1,4 +1,4 @@
-package co.com.bancolombia.certification.userinterfaces;
+package co.com.bancolombia.certification.userinterfaces.TP;
 
 import net.serenitybdd.screenplay.targets.Target;
 

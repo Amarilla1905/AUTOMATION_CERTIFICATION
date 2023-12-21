@@ -1,4 +1,4 @@
-package co.com.bancolombia.certification.tasks;
+package co.com.bancolombia.certification.tasks.TP;
 
 import co.com.bancolombia.certification.models.DataCertification;
 import net.serenitybdd.screenplay.Actor;
@@ -9,8 +9,8 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static co.com.bancolombia.certification.userinterfaces.HomePage.BTN_SAVE;
-import static co.com.bancolombia.certification.userinterfaces.TestPlanCheckListPerformance.TAB_CHECK_LIST_PERFORMANCE;
-import static co.com.bancolombia.certification.userinterfaces.TestPlanCheckListPerformance.TXT_EVC_TEST_PLAN;
+import static co.com.bancolombia.certification.userinterfaces.TP.TestPlanCheckListPerformance.TAB_CHECK_LIST_PERFORMANCE;
+import static co.com.bancolombia.certification.userinterfaces.TP.TestPlanCheckListPerformance.TXT_EVC_TEST_PLAN;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
 
 public class TabCheckPerformanceInformationTP implements Task {

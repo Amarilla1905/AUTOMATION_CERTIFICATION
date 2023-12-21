@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Certification" skipped="0" tests="1" time="135.29" timestamp="2023-08-13 10:14:32"><testcase name="Login Bancolombia"><failure message="Expected enabled element was not clickable" type="java.lang.AssertionError">Expected enabled element was not clickable</failure><system-err>Expected enabled element was not clickable&#13;
-co.com.bancolombia.certification.tasks.HomePageTaskTestPlan.performAs(HomePageTask.java:34)&#13;
+co.com.bancolombia.certification.tasks.HomePageTask.performAs(HomePageTask.java:34)&#13;
 co.com.bancolombia.certification.stepsdefinitions.HomeStepDefinitionTP.weFillInTheTestPlanFields(HomeStepDefinition.java:50)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 </system-err></testcase></testsuite>

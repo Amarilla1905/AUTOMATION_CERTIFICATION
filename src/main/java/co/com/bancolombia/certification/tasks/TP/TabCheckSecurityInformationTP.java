@@ -1,8 +1,8 @@
-package co.com.bancolombia.certification.tasks;
+package co.com.bancolombia.certification.tasks.TP;
 
 import co.com.bancolombia.certification.interactions.Pause;
-import co.com.bancolombia.certification.interactions.RefreshPage;
 import co.com.bancolombia.certification.interactions.SelectInTheList;
+import co.com.bancolombia.certification.interactions.SlowType;
 import co.com.bancolombia.certification.models.DataCertification;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -13,11 +13,9 @@ import net.serenitybdd.screenplay.actions.Hit;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import org.openqa.selenium.Keys;
 
-import static co.com.bancolombia.certification.userinterfaces.HomePage.BTN_SAVE;
-import static co.com.bancolombia.certification.userinterfaces.TestPlanCheckListSecurity.*;
-import static co.com.bancolombia.certification.userinterfaces.TestPlanCheckListSecurity.TXT_HU_CYBERSECURITY;
-import static co.com.bancolombia.certification.userinterfaces.TestPlanPageEvidence.OPTION_LIST;
-import static co.com.bancolombia.certification.userinterfaces.TestPlanPagePerformance.TXT_APPLICATION_CODE;
+import static co.com.bancolombia.certification.userinterfaces.TP.TestPlanCheckListSecurity.*;
+import static co.com.bancolombia.certification.userinterfaces.TP.TestPlanPage.*;
+import static co.com.bancolombia.certification.userinterfaces.HomePage.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
@@ -51,18 +49,22 @@ public class TabCheckSecurityInformationTP implements Task {
                 Click.on(BTN_DEVSECOPS_ASSIGNED),
                 Click.on(TXT_ENGINNER_OF_DEVSECOPS),
                 Enter.theValue(dataCertification.getAssignedDevSecOps()).into(TXT_ENGINNER_OF_DEVSECOPS),
+                //Enter.theValue("Octavio Velez Gaviria").into(TXT_ENGINNER_OF_DEVSECOPS),
                 WaitUntil.the(TXT_ENGINNER_OF_DEVSECOPS, isVisible()).forNoMoreThan(10).seconds(),
                 Click.on(TXT_ENGINNER_OF_DEVSECOPS),
+
+
                 SelectInTheList.theOption(TXT_ENGINNER_OF_DEVSECOPS,OPTION_LIST,dataCertification.getAssignedDevSecOps()),
                 Click.on(BTN_SAVE),
-                Pause.forSeconds(2),
+                Pause.forSeconds(1),
 
                 Click.on(TXT_HU_CYBERSECURITY),
-                Enter.theValue(dataCertification.getCybersecurityHu()).into(TXT_HU_CYBERSECURITY),
-                Pause.forSeconds(5),
+                SlowType.slowType(dataCertification.getCybersecurityHu(), TXT_HU_CYBERSECURITY),
+                //Enter.theValue(dataCertification.getCybersecurityHu()).into(TXT_HU_CYBERSECURITY),
+                Pause.forSeconds(1),
                 Hit.the(Keys.ENTER).into(TXT_HU_CYBERSECURITY),
                 WaitUntil.the(BTN_SAVE,isClickable()).forNoMoreThan(5).seconds(),
-                Pause.forSeconds(6),
+                Pause.forSeconds(1),
                 Click.on(BTN_SAVE)
 
 

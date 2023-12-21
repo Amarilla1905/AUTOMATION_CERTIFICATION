@@ -1,4 +1,4 @@
-package co.com.bancolombia.certification.tasks;
+package co.com.bancolombia.certification.tasks.General;
 
 import co.com.bancolombia.certification.interactions.Pause;
 import net.serenitybdd.screenplay.Actor;
@@ -19,9 +19,9 @@ public class LoginTask implements Task {
                             WaitUntil.the(TXT_EMAIL_LOGIN, isVisible()).forNoMoreThan(20).seconds(),
                             Enter.theValue("sarcas@bancolombia.com.co").into(TXT_EMAIL_LOGIN),
                             Click.on(BTN_NEXT_LOGIN),
-                            Enter.theValue("CIELOYMILOMISAMORES2123.*").into(TXT_PASSWORD_LOGIN),
+                            Enter.theValue("MISGATOSSONELAMORDEMIVIDA2123.*").into(TXT_PASSWORD_LOGIN),
                             Click.on(BTN_LOG_IN_LOGIN),
-                            Pause.forSeconds(3)
+                            Pause.forSeconds(1)
 
                     );
 

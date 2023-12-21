@@ -1,4 +1,4 @@
-package co.com.bancolombia.certification.tasks;
+package co.com.bancolombia.certification.tasks.TP;
 
 import co.com.bancolombia.certification.interactions.Pause;
 import co.com.bancolombia.certification.interactions.SwitchToFrame;
@@ -10,9 +10,7 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.*;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
-import static co.com.bancolombia.certification.userinterfaces.TestPlanCheckListPerformance.*;
-import static co.com.bancolombia.certification.userinterfaces.TestPlanCheckListPerformance.RESTORE_PERFORMANCE_TECHNICAL_INFORMATION_PERFORMANCE;
-import static co.com.bancolombia.certification.userinterfaces.TestPlanCheckListSecurity.BTN_OK_SAVE_INFORMATION;
+import static co.com.bancolombia.certification.userinterfaces.TP.TestPlanCheckListPerformance.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class TabCheckPerformanceProcessBatchTP implements Task {
@@ -35,14 +33,15 @@ public class TabCheckPerformanceProcessBatchTP implements Task {
                 Click.on(TXT_FIELDS_CHECKLIST_PERFORMANCE),
                 Scroll.to(TXT_FIELDS_CHECKLIST_PERFORMANCE).andAlignToBottom(),
                 WaitUntil.the(TXT_FIELDS_CHECKLIST_PERFORMANCE, isVisible()).forNoMoreThan(10).seconds(),
-                Enter.theValue(dataCertification.getModularTestingOrE2E()).into(TXT_FIELDS_CHECKLIST_PERFORMANCE),
+                Enter.theValue(dataCertification.getModularTestingOrE2()).into(TXT_FIELDS_CHECKLIST_PERFORMANCE),
                 WaitUntil.the(TXT_FIELDS_CHECKLIST_PERFORMANCE, isVisible()).forNoMoreThan(10).seconds(),
                 Enter.theValue(dataCertification.getTransactionType()).into(TXT_FIELDS_CHECKLIST_PERFORMANCE),
                 Pause.forSeconds(2),
                 Click.on(ENTER_NEW_BATCH_PROCESS),
                 Click.on(NAME_NEW_BATCH_PROCESS),
-                //Enter.theValue(dataCertification.getProcessBatchTitle()).into(NAME_NEW_BATCH_PROCESS),
-                Enter.theValue("Pr_prueba_test_plan_funcional").into(NAME_NEW_BATCH_PROCESS),
+                Enter.theValue(dataCertification.getProcessBatchTitle()).into(NAME_NEW_BATCH_PROCESS),
+                //Enter.theValue("Pr_prueba_test_plan_funcional_001").into(NAME_NEW_BATCH_PROCESS),
+
 
 
                 Click.on(MAXIMUM_NUMBER_BATCH_PROCESS),
@@ -64,14 +63,14 @@ public class TabCheckPerformanceProcessBatchTP implements Task {
                 Click.on(SELECT_PROCESS_RUN_IN_MESH.of(dataCertification.getRunsOnMesh())),
                 Click.on(CHECKBOX_SQOOP_PROCESS),
                 Click.on(BTN_OK_BATCH_PROCESS),
-                Pause.forSeconds(2),
+                Pause.forSeconds(1),
                 Click.on(BTN_EXIT_BATCH_PROCESS),
-                Pause.forSeconds(2),
+                Pause.forSeconds(1),
                 WaitUntil.the(BTN_EVALUATE_CHECKLIST_PERFORMANCE, isVisible()).forNoMoreThan(10).seconds(),
                 Click.on(BTN_EVALUATE_CHECKLIST_PERFORMANCE),
-                Pause.forSeconds(3),
+                Pause.forSeconds(2),
                 Click.on(BTN_OK_SAVE_INFORMATION),
-                Pause.forSeconds(5),
+                Pause.forSeconds(1),
 
                 Switch.toDefaultContext(),
 

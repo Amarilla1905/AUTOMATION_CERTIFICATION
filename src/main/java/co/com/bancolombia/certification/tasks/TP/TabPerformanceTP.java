@@ -1,4 +1,4 @@
-package co.com.bancolombia.certification.tasks;
+package co.com.bancolombia.certification.tasks.TP;
 
 import co.com.bancolombia.certification.models.DataCertification;
 import net.serenitybdd.screenplay.Actor;
@@ -6,8 +6,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-
-import static co.com.bancolombia.certification.userinterfaces.TestPlanPagePerformance.*;
+import static co.com.bancolombia.certification.userinterfaces.TP.TestPlanPagePerformance.*;
 
 public class TabPerformanceTP implements Task {
 
@@ -25,7 +24,7 @@ public class TabPerformanceTP implements Task {
                 Enter.theValue(dataCertification.getApplicationCode()).into(TXT_APPLICATION_CODE) ,
                 Click.on(TXT_NAME_OF_APPLICATION_SOLUTION),
                 Enter.theValue(dataCertification.getApplicationSolutionName()).into(TXT_NAME_OF_APPLICATION_SOLUTION)
-                );
+        );
 
     }
     public static TabPerformanceTP tabPerfomanceTP(DataCertification dataCertification) {

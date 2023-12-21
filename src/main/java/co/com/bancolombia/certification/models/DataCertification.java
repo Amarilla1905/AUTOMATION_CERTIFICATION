@@ -7,9 +7,8 @@ public class DataCertification {
 
     private String idTypeCertification;
     private String tittleTestPlan;
-    private String assignedTo;
-    private String area;
-    private String iteration;
+    private String assignedToEmail;
+    private String assignedToName;
     private String description;
     private String typeTestPlan;
     private String relatedParent;
@@ -17,7 +16,7 @@ public class DataCertification {
     private String applicationCode;
     private String applicationSolutionName;
     private String evc;
-    private String modularTestingOrE2E;
+    private String modularTestingOrE2;
     private String transactionType;
     private String processBatchTitle;
     private String typeCertification;
@@ -38,24 +37,20 @@ public class DataCertification {
     private String cybersecurityPerson;
     private String continuousSecurityTesting;
     private String securityTestAnalyst;
-
-
-
+    private String tittleDOD;
+    private String directDataChanges;
+    private String solutionDocumentation;
+    private String documentation;
+    private String deploymentTool;
+    private String pipeline;
+    private String artifact;
+    private String specializedTest;
 
     public DataCertification(DataBuilder dataBuilder){
-        this.idTypeCertification = dataBuilder.getListData().get(0).getIdTypeCertification();
+
         this.tittleTestPlan = dataBuilder.getListData().get(0).getTittleTestPlan();
-        this.assignedTo = dataBuilder.getListData().get(0).getAssignedTo();
-        this.area = dataBuilder.getListData().get(0).getArea();
-        this.iteration = dataBuilder.getListData().get(0).getIteration();
-        this.description = dataBuilder.getListData().get(0).getDescription();
-        this.typeTestPlan = dataBuilder.getListData().get(0).getTypeTestPlan();
-        this.relatedParent = dataBuilder.getListData().get(0).getRelatedParent();
-        this.relatedHu = dataBuilder.getListData().get(0).getRelatedHu();
-        this.tittleTestPlan = dataBuilder.getListData().get(0).getTittleTestPlan();
-        this.assignedTo = dataBuilder.getListData().get(0).getAssignedTo();
-        this.area = dataBuilder.getListData().get(0).getArea();
-        this.iteration = dataBuilder.getListData().get(0).getIteration();
+        this.assignedToEmail = dataBuilder.getListData().get(0).getAssignedToEmail();
+        this.assignedToName = dataBuilder.getListData().get(0).getAssignedToName();
         this.description = dataBuilder.getListData().get(0).getDescription();
         this.typeTestPlan = dataBuilder.getListData().get(0).getTypeTestPlan();
         this.relatedParent = dataBuilder.getListData().get(0).getRelatedParent();
@@ -63,8 +58,8 @@ public class DataCertification {
         this.applicationCode = dataBuilder.getListData().get(0).getApplicationCode();
         this.applicationSolutionName = dataBuilder.getListData().get(0).getApplicationSolutionName();
         this.evc = dataBuilder.getListData().get(0).getEvc();
-        this.modularTestingOrE2E = dataBuilder.getListData().get(0).getModularTestingOrE2E();
-        this.transactionType = dataBuilder.getListData().get(0).getTransactionType();
+        this.modularTestingOrE2 = dataBuilder.getListData().get(0).getModularTestingOrE2E();
+        this.transactionType = dataBuilder.getListData().get(0).gettransactionType();
         this.processBatchTitle = dataBuilder.getListData().get(0).getProcessBatchTitle();
         this.typeCertification = dataBuilder.getListData().get(0).getTypeCertification();
         this.maximumNumberRecords = dataBuilder.getListData().get(0).getMaximumNumberRecords();
@@ -84,28 +79,30 @@ public class DataCertification {
         this.cybersecurityPerson = dataBuilder.getListData().get(0).getCybersecurityPerson();
         this.continuousSecurityTesting = dataBuilder.getListData().get(0).getContinuousSecurityTesting();
         this.securityTestAnalyst = dataBuilder.getListData().get(0).getSecurityTestAnalyst();
+        this.tittleDOD = dataBuilder.getListData().get(0).getTittleDOD();
+        this.directDataChanges = dataBuilder.getListData().get(0).getDirectDataChanges();
+        this.solutionDocumentation = dataBuilder.getListData().get(0).getSolutionDocumentation();
+        this.documentation = dataBuilder.getListData().get(0).getDocumentation();
+        this.deploymentTool = dataBuilder.getListData().get(0).getDeploymentTool();
+        this.pipeline = dataBuilder.getListData().get(0).getPipeline();
+        this.artifact = dataBuilder.getListData().get(0).getArtifact();
+        this.specializedTest = dataBuilder.getListData().get(0).getSpecializedTest();
+
 
 
     }
 
-    public String getIdTypeCertification() {
-        return idTypeCertification;
-    }
 
     public String getTittleTestPlan() {
         return tittleTestPlan;
     }
 
-    public String getAssignedTo() {
-        return assignedTo;
+    public String getAssignedToEmail() {
+        return assignedToEmail;
     }
 
-    public String getArea() {
-        return area;
-    }
-
-    public String getIteration() {
-        return iteration;
+    public String getAssignedToName() {
+        return assignedToName;
     }
 
     public String getDescription() {
@@ -136,8 +133,8 @@ public class DataCertification {
         return evc;
     }
 
-    public String getModularTestingOrE2E() {
-        return modularTestingOrE2E;
+    public String getModularTestingOrE2() {
+        return modularTestingOrE2;
     }
 
     public String getTransactionType() {
@@ -220,6 +217,37 @@ public class DataCertification {
         return securityTestAnalyst;
     }
 
+    public String getTittleDOD() {
+        return tittleDOD;
+    }
 
- }
+    public String getDirectDataChanges() {
+        return directDataChanges;
+    }
 
+    public String getSolutionDocumentation() {
+        return solutionDocumentation;
+    }
+
+    public String getDocumentation() {
+        return documentation;
+    }
+
+    public String getDeploymentTool() {
+        return deploymentTool;
+    }
+
+    public String getPipeline() {
+        return pipeline;
+    }
+
+    public String getArtifact() {
+        return artifact;
+    }
+
+    public String getSpecializedTest() {
+        return specializedTest;
+    }
+
+
+}

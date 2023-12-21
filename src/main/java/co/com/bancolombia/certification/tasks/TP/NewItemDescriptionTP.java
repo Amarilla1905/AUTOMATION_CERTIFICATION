@@ -1,5 +1,6 @@
-package co.com.bancolombia.certification.tasks;
+package co.com.bancolombia.certification.tasks.TP;
 
+import co.com.bancolombia.certification.interactions.SlowType;
 import co.com.bancolombia.certification.models.DataCertification;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -10,7 +11,7 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static co.com.bancolombia.certification.userinterfaces.HomePage.BTN_NEW_WORK_ITEM_ICON;
 import static co.com.bancolombia.certification.userinterfaces.HomePage.BTN_OPTION_TEST_PLAN;
-import static co.com.bancolombia.certification.userinterfaces.TestPlanPageEvidence.*;
+import static co.com.bancolombia.certification.userinterfaces.TP.TestPlanPageEvidence.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class NewItemDescriptionTP implements Task {
@@ -31,11 +32,10 @@ public class NewItemDescriptionTP implements Task {
                 Click.on(BTN_OPTION_TEST_PLAN),
                 WaitUntil.the(TXT_TITTLE_TEST_PLAN,isVisible()).forNoMoreThan(15).seconds(),
                 Click.on(TXT_TITTLE_TEST_PLAN),
-                Enter.theValue(dataCertification.getTittleTestPlan()).into(TXT_TITTLE_TEST_PLAN),
-                // Enter.theValue("TEST PLAN AUTOMATIZACION PRUEBA").into(TXT_TITTLE_TEST_PLAN),
-
-
+                //Enter.theValue(dataCertification.getTittleTestPlan()).into(TXT_TITTLE_TEST_PLAN),
+                Enter.theValue("TEST PLAN AUTOMATIZACION PRUEBA").into(TXT_TITTLE_TEST_PLAN),
                 Click.on(TXT_DESCRIPTION_TEST_PLAN),
+                //SlowType.slowType(dataCertification.getDescription(), TXT_DESCRIPTION_TEST_PLAN),
                 Enter.theValue(dataCertification.getDescription()).into(TXT_DESCRIPTION_TEST_PLAN),
                 Enter.theValue(dataCertification.getTypeTestPlan()).into(TXT_TYPE_TEST_PLAN)
 

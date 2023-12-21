@@ -10,11 +10,10 @@ import java.util.Map;
 
 public class DataBuilder implements Builder<DataCertification> {
 
-    private String idTypeCertification;
+
     private String tittleTestPlan;
-    private String assignedTo;
-    private String area;
-    private String iteration;
+    private String assignedToEmail;
+    private String assignedToName;
     private String description;
     private String typeTestPlan;
     private String relatedParent;
@@ -43,26 +42,28 @@ public class DataBuilder implements Builder<DataCertification> {
     private String cybersecurityPerson;
     private String continuousSecurityTesting;
     private String securityTestAnalyst;
+    private String tittleDOD;
+    private String directDataChanges;
+    private String solutionDocumentation;
+    private String documentation;
+    private String deploymentTool;
+    private String pipeline;
+    private String artifact;
+    private String specializedTest;
 
 
-    public String getIdTypeCertification() {
-        return idTypeCertification;
-    }
+
 
     public String getTittleTestPlan() {
         return tittleTestPlan;
     }
 
-    public String getAssignedTo() {
-        return assignedTo;
+    public String getAssignedToEmail() {
+        return assignedToEmail;
     }
 
-    public String getArea() {
-        return area;
-    }
-
-    public String getIteration() {
-        return iteration;
+    public String getAssignedToName() {
+        return assignedToName;
     }
 
     public String getDescription() {
@@ -97,7 +98,7 @@ public class DataBuilder implements Builder<DataCertification> {
         return modularTestingOrE2E;
     }
 
-    public String getTransactionType() {
+    public String gettransactionType() {
         return transactionType;
     }
 
@@ -149,12 +150,12 @@ public class DataBuilder implements Builder<DataCertification> {
         return assignedCybersecurity;
     }
 
-    public String getAssignedDevSecOps() {
-        return assignedDevSecOps;
-    }
-
     public String getCybersecurityHu() {
         return cybersecurityHu;
+    }
+
+    public String getAssignedDevSecOps() {
+        return assignedDevSecOps;
     }
 
     public String getItRiskRating() {
@@ -177,6 +178,38 @@ public class DataBuilder implements Builder<DataCertification> {
         return securityTestAnalyst;
     }
 
+    public String getTittleDOD() {
+        return tittleDOD;
+    }
+
+    public String getDirectDataChanges() {
+        return directDataChanges;
+    }
+
+    public String getSolutionDocumentation() {
+        return solutionDocumentation;
+    }
+
+    public String getDocumentation() {
+        return documentation;
+    }
+
+    public String getDeploymentTool() {
+        return deploymentTool;
+    }
+
+    public String getPipeline() {
+        return pipeline;
+    }
+
+    public String getArtifact() {
+        return artifact;
+    }
+
+    public String getSpecializedTest() {
+        return specializedTest;
+    }
+
     protected static DataCertification objDataCertfication;
 
 
@@ -185,17 +218,8 @@ public class DataBuilder implements Builder<DataCertification> {
     private DataBuilder(Map<String, String> data) {
 
         this.tittleTestPlan = data.get("tittleTestPlan");
-        this.assignedTo = data.get("assignedTo");
-        this.area = data.get("area");
-        this.iteration = data.get("iteration");
-        this.description = data.get("description");
-        this.typeTestPlan = data.get("typeTestPlan");
-        this.relatedParent = data.get("relatedParent");
-        this.relatedHu = data.get("relatedHu");
-        this.tittleTestPlan = data.get("tittleTestPlan");
-        this.assignedTo = data.get("assignedTo");
-        this.area = data.get("area");
-        this.iteration = data.get("iteration");
+        this.assignedToEmail = data.get("assignedToEmail");
+        this.assignedToName = data.get("assignedToName");
         this.description = data.get("description");
         this.typeTestPlan = data.get("typeTestPlan");
         this.relatedParent = data.get("relatedParent");
@@ -224,7 +248,14 @@ public class DataBuilder implements Builder<DataCertification> {
         this.cybersecurityPerson = data.get("cybersecurityPerson");
         this.continuousSecurityTesting = data.get("continuousSecurityTesting");
         this.securityTestAnalyst = data.get("securityTestAnalyst");
-
+        this.tittleDOD = data.get("tittleDOD");
+        this.directDataChanges = data.get("directDataChanges");
+        this.solutionDocumentation = data.get("solutionDocumentation");
+        this.documentation = data.get("documentation");
+        this.deploymentTool = data.get("deploymentTool");
+        this.pipeline = data.get("pipeline");
+        this.artifact = data.get("artifact");
+        this.specializedTest = data.get("specializedTest");
     }
 
     public static DataBuilder dataTestPlan(List<Map<String, String>> DataCertification) {

@@ -1,4 +1,4 @@
-package co.com.bancolombia.certification.userinterfaces;
+package co.com.bancolombia.certification.userinterfaces.TP;
 
 import net.serenitybdd.screenplay.targets.Target;
 
@@ -31,4 +31,7 @@ public class TestPlanCheckListPerformance {
     public static final Target BTN_CANCEL_BATCH_PROCESS = Target.the("Button cancel batch process").locatedBy("//button[@id='cancel' and @class='ui-button ui-corner-all ui-widget']");
     public static final Target BTN_EXIT_BATCH_PROCESS = Target.the("Button cancel batch process").locatedBy("//span[@class='close_batch']");
     public static final Target BTN_EVALUATE_CHECKLIST_PERFORMANCE = Target.the("evaluate check performance").locatedBy("//button[@class='evluarButton' and contains(text(),'Evaluar Checklist')]");
+    public static final Target BTN_OK_SAVE_INFORMATION = Target.the("Button ok save information").locatedBy("//button[@id='ok']");
+
+
 }

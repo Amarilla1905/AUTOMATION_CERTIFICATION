@@ -1,4 +1,4 @@
-package co.com.bancolombia.certification.userinterfaces;
+package co.com.bancolombia.certification.userinterfaces.TP;
 
 import net.serenitybdd.screenplay.targets.Target;
 
@@ -26,6 +26,14 @@ public class TestPlanPageEvidence {
     public static final Target SCROLL_LINK_TYPE = Target.the("Scroll link type").locatedBy(".bolt-dropdown-list-box-container.bolt-table-container.flex-grow.v-scroll-auto");
     public static final Target OPTION_LIST_RELATED_HU = Target.the("Options in the list of the first field ").locatedBy("//span[contains(text()='{0}')]");
     public static final Target BTN_SAVE_ADD_RELATED_PARENT = Target.the("Button save of Parent related ").locatedBy("//button[@class='bolt-button enabled primary bolt-focus-treatment']");
+
+
+
+
+
+
+
+
 
 
 }

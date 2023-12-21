@@ -1,10 +1,13 @@
 package co.com.bancolombia.certification.tasks;
 import co.com.bancolombia.certification.models.DataCertification;
 
+import co.com.bancolombia.certification.tasks.General.AddParentRelated;
+import co.com.bancolombia.certification.tasks.General.LoginTask;
+import co.com.bancolombia.certification.tasks.TP.*;
+import co.com.bancolombia.certification.userinterfaces.TP.TestPlanPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
-import net.serenitybdd.screenplay.actions.Click;
 
 
 public class HomePageTaskTestPlan implements Task {
@@ -19,16 +22,18 @@ public class HomePageTaskTestPlan implements Task {
         actor.attemptsTo(
                 LoginTask.loginTask(),
                 NewItemDescriptionTP.newItemDescription(dataCertification),
-                //AddParentRelated.addParentRelated(dataCertification),
+             //   AddParentRelated.addParentRelated(dataCertification),
                 TabPerformanceTP.tabPerfomanceTP(dataCertification),
                 TabCheckPerformanceInformationTP.tabCheckPerformanceInformation(dataCertification),
-                TabCheckPerformanceProcessBatchTP.tabCheckPerformanceProcessBatch(dataCertification),
+              //  TabCheckPerformanceProcessBatchTP.tabCheckPerformanceProcessBatch(dataCertification),
                 TabCheckSecurityInformationTP.tabCheckSecurityInformation(dataCertification),
-                TabCheckSecurityProccessTP.tabCheckSecurityProccess(dataCertification)
+              //  TabCheckSecurityProccessTP.tabCheckSecurityProccess(dataCertification),
+                GetNumberTP.getNumberTP(TestPlanPage.TXT_NUMBER_TP)
+
 
         );
     }
-    public static HomePageTaskTestPlan enterData(DataCertification dataCertification) {
+    public static HomePageTaskTestPlan enterDataTP(DataCertification dataCertification) {
         return Tasks.instrumented(HomePageTaskTestPlan.class, dataCertification);
     }
 }
