@@ -1,0 +1,457 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">co.com.bancolombia.certificacion</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="978ac76ce9965a1f524f6fcd94676e236e7575ceccc9be6d2d0691ecca70024f.html">Certification TP</a></span>
+                > <span class="truncate-60"><a
+                    href="dfcb2673b3ba521f8907123c4d8da967e35f789ca8a0042b30077e5e27c8d7a0.html">Create Test Plan </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-01-2024 15:23</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Certification TP </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                i as certifier of the Bancolombia<br />
+i want to access azure<br />
+to perform the certification process of Test Plan
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Create Test Plan
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="83b7e82c6262fb891710b4b2525642b10d27af528ac9e3182bb90bdb805dcd5d.png" title=" Given that the user is successfully logged in page of TP" width="1369"/>
+                <img src="83b7e82c6262fb891710b4b2525642b10d27af528ac9e3182bb90bdb805dcd5d.png" title=" User_Certi opens the https://grupobancolombia.visualstudio.com.mcas.ms/Vicepresidencia%20Servicios%20de%20Tecnolog%C3%ADa/_workitems/following/" width="1369"/>
+                <img src="83b7e82c6262fb891710b4b2525642b10d27af528ac9e3182bb90bdb805dcd5d.png" title=" Given that the user is successfully logged in page of TP (completed)" width="1369"/>
+                <img src="c62a59ac6bda1962c61ef975d4b5186d584d28949cb0bf9dec47e42df797b89a.png" title=" When we fill in the test plan fields
+| id |
+| 1 |" width="1369"/>
+                <img src="c62a59ac6bda1962c61ef975d4b5186d584d28949cb0bf9dec47e42df797b89a.png" title=" User_certi home page task test plan" width="1369"/>
+                <img src="c62a59ac6bda1962c61ef975d4b5186d584d28949cb0bf9dec47e42df797b89a.png" title=" User_certi login task" width="1369"/>
+                <img src="5b95d51f6e76ddb226e42ebe6d53630c48cd9cbdf7dc584e693d75ccc91ae431.png" title=" User_Certi enters 'sarcas@bancolombia.com.co' into enter the email" width="1369"/>
+                <img src="ffe6e06a61379ce32b09b326f356b4ec3d3db6586ef7294dfda87a64c11f0865.png" title=" User_Certi enters 'sarcas@bancolombia.com.co' into enter the email (completed)" width="1369"/>
+                <img src="ffe6e06a61379ce32b09b326f356b4ec3d3db6586ef7294dfda87a64c11f0865.png" title=" User_Certi clicks on click on next" width="1369"/>
+                <img src="8b1eefb759616c6d9ab2d428d10b3c602ec2694ddb3987b75d07e3493361c2b1.png" title=" User_Certi clicks on click on next (completed)" width="1369"/>
+                <img src="8b1eefb759616c6d9ab2d428d10b3c602ec2694ddb3987b75d07e3493361c2b1.png" title=" User_Certi enters '' into enter the password" width="1369"/>
+                <img src="5940dd30a3f3bb1d3529ccf3ab79a94ad32a66e65e0cb247aa9fa2be81e7cb7a.png" title=" User_Certi enters '' into enter the password (completed)" width="1369"/>
+                <img src="5940dd30a3f3bb1d3529ccf3ab79a94ad32a66e65e0cb247aa9fa2be81e7cb7a.png" title=" User_Certi clicks on click on login" width="1369"/>
+                <img src="061146e4e8f167d3c7874cd39c98af20b6b3fb977af6088c9a5e57ce271ce7bb.png" title=" User_Certi clicks on click on login (completed)" width="1369"/>
+                <img src="061146e4e8f167d3c7874cd39c98af20b6b3fb977af6088c9a5e57ce271ce7bb.png" title=" User_certi login task (completed)" width="1369"/>
+                <img src="061146e4e8f167d3c7874cd39c98af20b6b3fb977af6088c9a5e57ce271ce7bb.png" title=" User_certi new item description tp" width="1369"/>
+                <img src="061146e4e8f167d3c7874cd39c98af20b6b3fb977af6088c9a5e57ce271ce7bb.png" title=" User_Certi clicks on button work item icon" width="1369"/>
+                <img src="80ee9191c20819cb57db0494d9db12319c92547723dc9c4a17af523fee825304.png" title=" User_Certi clicks on button work item icon (completed)" width="1369"/>
+                <img src="80ee9191c20819cb57db0494d9db12319c92547723dc9c4a17af523fee825304.png" title=" User_Certi clicks on button new test plan" width="1369"/>
+                <img src="6873cba8f6c2c2bf3e5a987080341267f3808da9a862c0aadf331dbec0cce00c.png" title=" User_Certi clicks on button new test plan (completed)" width="1369"/>
+                <img src="d4b50c1a59d4f1315effdb2411a23f04113fdb0510ed5ab621506c39b6679db1.png" title=" User_Certi clicks on Enter the tittle of the test plan" width="1369"/>
+                <img src="ffd0c6eb9b5be5c5e7e5ced62c7c3f2483ee9a340a2db8e9211319e26b8e2590.png" title=" User_Certi clicks on Enter the tittle of the test plan (completed)" width="1369"/>
+                <img src="ffd0c6eb9b5be5c5e7e5ced62c7c3f2483ee9a340a2db8e9211319e26b8e2590.png" title=" User_Certi enters 'TEST PLAN EVC00037_4960175 SPRINT 184' into Enter the tittle of the test plan" width="1369"/>
+                <img src="614507e8d8fa81044ecdb570beffb512fe9c9daa1b4ca5f5fabca5c2d71ab31e.png" title=" User_Certi enters 'TEST PLAN EVC00037_4960175 SPRINT 184' into Enter the tittle of the test plan (completed)" width="1369"/>
+                <img src="614507e8d8fa81044ecdb570beffb512fe9c9daa1b4ca5f5fabca5c2d71ab31e.png" title=" User_Certi clicks on Text expand the description" width="1369"/>
+                <img src="ac23c3cf33a9c6bccd36d8b7fa1a064e3444925d9690fc48a4befa30f914cc1b.png" title=" User_Certi clicks on Text expand the description (completed)" width="1369"/>
+                <img src="ac23c3cf33a9c6bccd36d8b7fa1a064e3444925d9690fc48a4befa30f914cc1b.png" title=" User_Certi enters 'Alcance
+Se valida que los logs estan correctos y no se encuentren errores que desencadenen una falla
+
+Historia de usuario:
+
+  HU4960175 | Habilitador 4960175: Esfuerzo Adicional - Kill Finished Queries | AW1003001_BigDataCompany | Release-XXXXXXXXXXXXXXXXXXXX| XXXXXXXXXXXXXXXXX | 
+Lineas impactadas: 
+N/A 
+
+Equipo de trabajo:
+Scrum Master:  Xiomara Munoz Cabas
+Product Owner: Yamile Onedy Buritica Morales
+Transformacion: N/A
+Disponibilidad del Servicio: N/A
+Seguridad Corporativa: Julio Cesar Perez Calderon
+Certificacion Funcional: Fabian Alexander Pineda Valencia, Juan David Potes Medina
+
+Supuestos y limitaciones: 
+Supuestos:
+1. Se cuenta con el ambiente de pruebas estable y controlado, alineado al ambiente de produccion. 
+2. Se cuenta con los usuarios y accesos a los diferentes recursos. 
+
+Limitaciones:
+1. Ambiente inestable y con fallas, para la ejecucion de las pruebas. 
+2. Falta de acceso al ambiente de pruebas. 
+3. Solucion de errores tarde mas de lo establecido, retrasando las pruebas.' into Text expand the description" width="1369"/>
+                <img src="a70f8ca843028c2c8b70565316f4826430cdf46b4fafc0195988e8577cdc6d7a.png" title=" User_Certi enters 'Alcance
+Se valida que los logs estan correctos y no se encuentren errores que desencadenen una falla
+
+Historia de usuario:
+
+  HU4960175 | Habilitador 4960175: Esfuerzo Adicional - Kill Finished Queries | AW1003001_BigDataCompany | Release-XXXXXXXXXXXXXXXXXXXX| XXXXXXXXXXXXXXXXX | 
+Lineas impactadas: 
+N/A 
+
+Equipo de trabajo:
+Scrum Master:  Xiomara Munoz Cabas
+Product Owner: Yamile Onedy Buritica Morales
+Transformacion: N/A
+Disponibilidad del Servicio: N/A
+Seguridad Corporativa: Julio Cesar Perez Calderon
+Certificacion Funcional: Fabian Alexander Pineda Valencia, Juan David Potes Medina
+
+Supuestos y limitaciones: 
+Supuestos:
+1. Se cuenta con el ambiente de pruebas estable y controlado, alineado al ambiente de produccion. 
+2. Se cuenta con los usuarios y accesos a los diferentes recursos. 
+
+Limitaciones:
+1. Ambiente inestable y con fallas, para la ejecucion de las pruebas. 
+2. Falta de acceso al ambiente de pruebas. 
+3. Solucion de errores tarde mas de lo establecido, retrasando las pruebas.' into Text expand the description (completed)" width="1369"/>
+                <img src="a70f8ca843028c2c8b70565316f4826430cdf46b4fafc0195988e8577cdc6d7a.png" title=" User_Certi enters 'Ambos' into Enter the type of test plan " width="1369"/>
+                <img src="7a120d8f4b83e7df39db1ce42a50a1ab6a70a3ae88bb5083859c115f33ab42f4.png" title=" User_Certi enters 'Ambos' into Enter the type of test plan  (completed)" width="1369"/>
+                <img src="7a120d8f4b83e7df39db1ce42a50a1ab6a70a3ae88bb5083859c115f33ab42f4.png" title=" User_certi new item description tp (completed)" width="1369"/>
+                <img src="7a120d8f4b83e7df39db1ce42a50a1ab6a70a3ae88bb5083859c115f33ab42f4.png" title=" User_certi add parent related" width="1369"/>
+                <img src="714e4a5843e01c707caff87089a4d017cea9637374507e830b01d01a1854651b.png" title=" User_Certi clicks on Add Parent related " width="1369"/>
+                <img src="ac1e9dddf47dd6f0011281b844e2a81cc2eef025344e6bf1cc00dc1569e3f32f.png" title=" User_Certi clicks on Add Parent related  (completed)" width="1369"/>
+                <img src="ac1e9dddf47dd6f0011281b844e2a81cc2eef025344e6bf1cc00dc1569e3f32f.png" title=" User_Certi clicks on Enter the #num " width="1369"/>
+                <img src="275432816b68eec935918d2d649bfcb71a7ac8d43d8ffba332b971d641919904.png" title=" User_Certi clicks on Enter the #num  (completed)" width="1369"/>
+                <img src="ffbcc359bd85bc6d1333a25b5e9a538314b2f02efa7082a7fab2454eb7e3f7ca.png" title=" User_Certi enters '4917638' into Enter the #num " width="1369"/>
+                <img src="67cfe1a2fa00290959b37baa18a81965a4891c7d1721987b11ae5f27cc029a47.png" title=" User_Certi enters '4917638' into Enter the #num  (completed)" width="1369"/>
+                <img src="f99522f4e5f2f80a2755c0de69ee122981b50f7c9b00d9793df0d97df4415c56.png" title=" User_Certi types 'ENTER' in Enter the #num " width="1369"/>
+                <img src="cc81015ef3d801399ba80c4a47e8e37f45459756f8fae5538cc1d267cc0f3861.png" title=" User_Certi types 'ENTER' in Enter the #num  (completed)" width="1369"/>
+                <img src="cc81015ef3d801399ba80c4a47e8e37f45459756f8fae5538cc1d267cc0f3861.png" title=" User_Certi clicks on Button save of Parent related " width="1369"/>
+                <img src="f553fa4bec50e148b9863fa0d42f74983736d738d5c92c9ee1d23725b89801c0.png" title=" User_Certi clicks on Button save of Parent related  (completed)" width="1369"/>
+                <img src="f553fa4bec50e148b9863fa0d42f74983736d738d5c92c9ee1d23725b89801c0.png" title=" User_Certi clicks on Enter the HU related " width="1369"/>
+                <img src="f64ab8da1fa25d17e7923e9b1df429923eaa304de3ecceedefba73bce373b9da.png" title=" User_Certi clicks on Enter the HU related  (completed)" width="1369"/>
+                <img src="f64ab8da1fa25d17e7923e9b1df429923eaa304de3ecceedefba73bce373b9da.png" title=" User_Certi clicks on Existing item " width="1369"/>
+                <img src="feb75971ef3b3534cb4c2893d31abfd420bd07d76a20241a298388b46563442e.png" title=" User_Certi clicks on Existing item  (completed)" width="1369"/>
+                <img src="feb75971ef3b3534cb4c2893d31abfd420bd07d76a20241a298388b46563442e.png" title=" User_Certi clicks on Enter the word Parent and related  " width="1369"/>
+                <img src="4fdffb6889250085493d37f745a8ee327b16565c25beada609881d24f1712170.png" title=" User_Certi clicks on Enter the word Parent and related   (completed)" width="1369"/>
+                <img src="4fdffb6889250085493d37f745a8ee327b16565c25beada609881d24f1712170.png" title=" User_Certi enters 'Related' into Enter the word Parent and related input  " width="1369"/>
+                <img src="54e32d99fbc3b7db698e246dd936a583807ea07ee653acc146699e112acaa67f.png" title=" User_Certi enters 'Related' into Enter the word Parent and related input   (completed)" width="1369"/>
+                <img src="54e32d99fbc3b7db698e246dd936a583807ea07ee653acc146699e112acaa67f.png" title=" User_Certi types 'ENTER' in Enter the word Parent and related input  " width="1369"/>
+                <img src="f667cc47132981c65ee23889c7ac107e9e197c5c8115ae37b8e77f6ffc057064.png" title=" User_Certi types 'ENTER' in Enter the word Parent and related input   (completed)" width="1369"/>
+                <img src="f667cc47132981c65ee23889c7ac107e9e197c5c8115ae37b8e77f6ffc057064.png" title=" User_Certi clicks on Enter the #num " width="1369"/>
+                <img src="822938184c54191dab624738e69941e4e36f4b2b905efc3349f0e5dc8e7d3ba3.png" title=" User_Certi clicks on Enter the #num  (completed)" width="1369"/>
+                <img src="822938184c54191dab624738e69941e4e36f4b2b905efc3349f0e5dc8e7d3ba3.png" title=" User_Certi enters '4960175' into Enter the #num " width="1369"/>
+                <img src="b0ca2283a8dcca5e63cd70002b39d6637d51532d8c5d7ba07f879cc957d2136d.png" title=" User_Certi enters '4960175' into Enter the #num  (completed)" width="1369"/>
+                <img src="3692553a0568d535f209f1a48cfba0527d1f396e036e905cb982f85961ed5b9a.png" title=" User_Certi types 'ENTER' in Enter the #num " width="1369"/>
+                <img src="d48109821130f479a9e94c756db93afc0af90e9ee30d6425a497f2bea7d42489.png" title=" User_Certi types 'ENTER' in Enter the #num  (completed)" width="1369"/>
+                <img src="9a6fa3ecba59773b117eb6749096848a1ae932a3bed6a86537ad775d84c7a6ba.png" title=" User_Certi clicks on Button save of Parent related " width="1369"/>
+                <img src="a1c12884359d52751aa04d4a273201f71de65ac13a529cc45297d0c59dba7aa3.png" title=" User_Certi clicks on Button save of Parent related  (completed)" width="1369"/>
+                <img src="a1c12884359d52751aa04d4a273201f71de65ac13a529cc45297d0c59dba7aa3.png" title=" User_certi add parent related (completed)" width="1369"/>
+                <img src="a1c12884359d52751aa04d4a273201f71de65ac13a529cc45297d0c59dba7aa3.png" title=" User_certi tab performance tp" width="1369"/>
+                <img src="a1c12884359d52751aa04d4a273201f71de65ac13a529cc45297d0c59dba7aa3.png" title=" User_Certi clicks on Tab performance test plan" width="1369"/>
+                <img src="0f116248814ce7c472d47f9fafee8e43620ad439203556e0a3b64e098ab7ef33.png" title=" User_Certi clicks on Tab performance test plan (completed)" width="1369"/>
+                <img src="0f116248814ce7c472d47f9fafee8e43620ad439203556e0a3b64e098ab7ef33.png" title=" User_Certi clicks on Enter the application code" width="1369"/>
+                <img src="4bc29808f803ea10031541fabcaf385435631e957e96acdd03640b61280539d5.png" title=" User_Certi clicks on Enter the application code (completed)" width="1369"/>
+                <img src="4bc29808f803ea10031541fabcaf385435631e957e96acdd03640b61280539d5.png" title=" User_Certi enters 'NU0044001' into Enter the application code" width="1369"/>
+                <img src="e78baa03d16bce36ee342c666a41695702e4c47aecaf702187fc34379c8498dc.png" title=" User_Certi enters 'NU0044001' into Enter the application code (completed)" width="1369"/>
+                <img src="e78baa03d16bce36ee342c666a41695702e4c47aecaf702187fc34379c8498dc.png" title=" User_Certi clicks on Enter the name of the application" width="1369"/>
+                <img src="8966223e756623fcceeeea7236e2ec31c031fefaf8d3b30fa91b59f1159c378c.png" title=" User_Certi clicks on Enter the name of the application (completed)" width="1369"/>
+                <img src="8966223e756623fcceeeea7236e2ec31c031fefaf8d3b30fa91b59f1159c378c.png" title=" User_Certi enters 'Productizar LZ Cloud' into Enter the name of the application" width="1369"/>
+                <img src="19733dcb7053098ccc90f948c53f7147acf4b2001de11a696ce7bcefb903aba9.png" title=" User_Certi enters 'Productizar LZ Cloud' into Enter the name of the application (completed)" width="1369"/>
+                <img src="19733dcb7053098ccc90f948c53f7147acf4b2001de11a696ce7bcefb903aba9.png" title=" User_certi tab performance tp (completed)" width="1369"/>
+                <img src="19733dcb7053098ccc90f948c53f7147acf4b2001de11a696ce7bcefb903aba9.png" title=" User_certi tab check performance information tp" width="1369"/>
+                <img src="1c03341d0711ef9dccecff860c8f9b9f0947a53ed2f33d0938e6ebeeae2a41ad.png" title=" User_Certi clicks on Tab check list performance" width="1369"/>
+                <img src="a032be25acc29308e04a1cd41f8b90ccb42fd37e1610b569b8d9846b324a857b.png" title=" User_Certi clicks on Tab check list performance (completed)" width="1369"/>
+                <img src="a032be25acc29308e04a1cd41f8b90ccb42fd37e1610b569b8d9846b324a857b.png" title=" User_Certi clicks on Enter the value of EVC" width="1369"/>
+                <img src="93df435e48ed8a8a86246f44005de8de9945f97e0b661842263b3fc2d1205e07.png" title=" User_Certi clicks on Enter the value of EVC (completed)" width="1369"/>
+                <img src="93df435e48ed8a8a86246f44005de8de9945f97e0b661842263b3fc2d1205e07.png" title=" User_Certi enters 'EVC - DATOS ANALITICA E IA' into Enter the value of EVC" width="1369"/>
+                <img src="432d216620c67e882f9c412a9fedcb4e9f71a06ae91fdea65476ab85f0b0ad1a.png" title=" User_Certi enters 'EVC - DATOS ANALITICA E IA' into Enter the value of EVC (completed)" width="1369"/>
+                <img src="fd0f22b559c82a228c63140aff81b07a788598eb3b6da33b0e4a5272f4e4ff8a.png" title=" User_Certi clicks on button save test plan " width="1369"/>
+                <img src="1ad5f195881c63523822565b425d1fca86ca91f328b39f02d822612f88793597.png" title=" User_Certi clicks on button save test plan  (completed)" width="1369"/>
+                <img src="1ad5f195881c63523822565b425d1fca86ca91f328b39f02d822612f88793597.png" title=" User_certi tab check performance information tp (completed)" width="1369"/>
+                <img src="1ad5f195881c63523822565b425d1fca86ca91f328b39f02d822612f88793597.png" title=" User_certi tab check performance process batch tp" width="1369"/>
+                <img src="a8f3d475c34d8494b2a8463f77263d5063e62cb1c9ec1a5ea22eef0aca8e9cf7.png" title=" User_Certi clicks on Maximize information general section" width="1369"/>
+                <img src="d5245e0ceef2f93edf49b62f563505c902522108684e59a7bb956e4163b4f203.png" title=" User_Certi clicks on Maximize information general section (completed)" width="1369"/>
+                <img src="02fc85fc2927842f1ed538706c3b4e928591e9c7663b01a00d87a2e935dad1da.png" title=" User_Certi clicks on Enter the value E2E" width="1369"/>
+                <img src="aa61aa3de1632b1c937f776115dc531a70c48841f48453433c254a755c1e11db.png" title=" User_Certi clicks on Enter the value E2E (completed)" width="1369"/>
+                <img src="aa61aa3de1632b1c937f776115dc531a70c48841f48453433c254a755c1e11db.png" title=" User_Certi enters 'Modulares No iSeries' into Enter the value E2E" width="1369"/>
+                <img src="c15f59f0c8e91f46300ff449f7f6d373f11b8a602cdda465c69b1848ecb84cfb.png" title=" User_Certi enters 'Modulares No iSeries' into Enter the value E2E (completed)" width="1369"/>
+                <img src="c15f59f0c8e91f46300ff449f7f6d373f11b8a602cdda465c69b1848ecb84cfb.png" title=" User_Certi enters 'Batch' into Enter the value E2E" width="1369"/>
+                <img src="271c60d4c17ce0f7a075f8d51305d0f6b31747b8d58730e8e0ff9d37d1f8cf7c.png" title=" User_Certi enters 'Batch' into Enter the value E2E (completed)" width="1369"/>
+                <img src="3a43c8a60feeb2ac97e2ae110bec21db3a6c63b28984ff94e42799d61709e464.png" title=" User_Certi clicks on Link enter the new batch process" width="1369"/>
+                <img src="d4ab3eabdb76b1970d9ff016c4c424b93317324ab974d7bfb93a5035f8782e08.png" title=" User_Certi clicks on Link enter the new batch process (completed)" width="1369"/>
+                <img src="d4ab3eabdb76b1970d9ff016c4c424b93317324ab974d7bfb93a5035f8782e08.png" title=" User_Certi clicks on Enter the name new batch process" width="1369"/>
+                <img src="95054f91212349a02abd3bde0526a279d9115ee0718e5a4dc965ed95a333dab9.png" title=" User_Certi clicks on Enter the name new batch process (completed)" width="1369"/>
+                <img src="95054f91212349a02abd3bde0526a279d9115ee0718e5a4dc965ed95a333dab9.png" title=" User_Certi enters 'Pr_Esfuerzo_Adicional_-_Kill_Finished_Queries' into Enter the name new batch process" width="1369"/>
+                <img src="31bee1dd03aa51a6ccd8802de2c248f1acdc559f870188f6efb80484f029ec1f.png" title=" User_Certi enters 'Pr_Esfuerzo_Adicional_-_Kill_Finished_Queries' into Enter the name new batch process (completed)" width="1369"/>
+                <img src="31bee1dd03aa51a6ccd8802de2c248f1acdc559f870188f6efb80484f029ec1f.png" title=" User_Certi clicks on Enter maximum number of records to process new batch process" width="1369"/>
+                <img src="140317208e0446603cc8a730e75ef14b6fcc0913d795dde9a2dae11c9d52fc46.png" title=" User_Certi clicks on Enter maximum number of records to process new batch process (completed)" width="1369"/>
+                <img src="140317208e0446603cc8a730e75ef14b6fcc0913d795dde9a2dae11c9d52fc46.png" title=" User_Certi enters '1000' into Enter maximum number of records to process new batch process" width="1369"/>
+                <img src="22527a70b650819400ec1ec45019b2774bbe30117fdb0fccc5181666f0acfb2e.png" title=" User_Certi enters '1000' into Enter maximum number of records to process new batch process (completed)" width="1369"/>
+                <img src="22527a70b650819400ec1ec45019b2774bbe30117fdb0fccc5181666f0acfb2e.png" title=" User_Certi clicks on Enter type maximum number of records to process new batch process" width="1369"/>
+                <img src="1757ad32c3c2a100699f08cf0a1ef2a37ddaf2d8ce4344dcf904f347598a8f2d.png" title=" User_Certi clicks on Enter type maximum number of records to process new batch process (completed)" width="1369"/>
+                <img src="1757ad32c3c2a100699f08cf0a1ef2a37ddaf2d8ce4344dcf904f347598a8f2d.png" title=" User_Certi clicks on Enter maximum size of file(s) to process new batch process" width="1369"/>
+                <img src="5e50deee99b163b5e31739fc2b9c95702bad0e170a17a7288c09b21e57577b68.png" title=" User_Certi clicks on Enter maximum size of file(s) to process new batch process (completed)" width="1369"/>
+                <img src="5e50deee99b163b5e31739fc2b9c95702bad0e170a17a7288c09b21e57577b68.png" title=" User_Certi enters '30' into Enter maximum size of file(s) to process new batch process" width="1369"/>
+                <img src="ee3685b982ca4cba1d539e90677e0131eaa71100a509ccbdce42e5b5168706b4.png" title=" User_Certi enters '30' into Enter maximum size of file(s) to process new batch process (completed)" width="1369"/>
+                <img src="ee3685b982ca4cba1d539e90677e0131eaa71100a509ccbdce42e5b5168706b4.png" title=" User_Certi clicks on Enter type maximum size of file(s) to process new batch process" width="1369"/>
+                <img src="62b9414c288964bb34ea8e3cef0907a097d32d00a5f1b873569118da9fee9d00.png" title=" User_Certi clicks on Enter type maximum size of file(s) to process new batch process (completed)" width="1369"/>
+                <img src="62b9414c288964bb34ea8e3cef0907a097d32d00a5f1b873569118da9fee9d00.png" title=" User_Certi clicks on Enter the maximum time to new batch process" width="1369"/>
+                <img src="2c41ac57fa6aec8c9a8cc1812f2d3d8bc813bcd8344c44665cfc6315eff69f73.png" title=" User_Certi clicks on Enter the maximum time to new batch process (completed)" width="1369"/>
+                <img src="2c41ac57fa6aec8c9a8cc1812f2d3d8bc813bcd8344c44665cfc6315eff69f73.png" title=" User_Certi enters '30' into Enter the maximum time to new batch process" width="1369"/>
+                <img src="c2950c346f4268573d00256524e56168269a947d02c3ce02af6c6162c19c1ce4.png" title=" User_Certi enters '30' into Enter the maximum time to new batch process (completed)" width="1369"/>
+                <img src="c2950c346f4268573d00256524e56168269a947d02c3ce02af6c6162c19c1ce4.png" title=" User_Certi clicks on Enter the type maximum time to new batch process" width="1369"/>
+                <img src="1256ebdefcc55d059850c6e55f7f3c223a61ebcd190bded68cd203f09c178cf6.png" title=" User_Certi clicks on Enter the type maximum time to new batch process (completed)" width="1369"/>
+                <img src="1256ebdefcc55d059850c6e55f7f3c223a61ebcd190bded68cd203f09c178cf6.png" title=" User_Certi clicks on Enter the error percentage to new batch process" width="1369"/>
+                <img src="c0d83cc87bc14bcd73e061ae77db2b9d3840275b251321aab4fe6c310a35c5a6.png" title=" User_Certi clicks on Enter the error percentage to new batch process (completed)" width="1369"/>
+                <img src="c0d83cc87bc14bcd73e061ae77db2b9d3840275b251321aab4fe6c310a35c5a6.png" title=" User_Certi enters '3' into Enter the error percentage to new batch process" width="1369"/>
+                <img src="b1b9d553d33d7ad999e0867a028dc133876ffc42c81530e3cf0bfcbdb2b0ca31.png" title=" User_Certi enters '3' into Enter the error percentage to new batch process (completed)" width="1369"/>
+                <img src="b1b9d553d33d7ad999e0867a028dc133876ffc42c81530e3cf0bfcbdb2b0ca31.png" title=" User_Certi clicks on Enter the percentage of growth to new batch process" width="1369"/>
+                <img src="f23dc77fac9379f6d00b1c1cdfdcd7b6ce670e8f5ca12867848c3627cdc6b1d0.png" title=" User_Certi clicks on Enter the percentage of growth to new batch process (completed)" width="1369"/>
+                <img src="f23dc77fac9379f6d00b1c1cdfdcd7b6ce670e8f5ca12867848c3627cdc6b1d0.png" title=" User_Certi enters '10' into Enter the percentage of growth to new batch process" width="1369"/>
+                <img src="7828721c4b0dc3177ff176a971433ba4975046b0158f1ca8f778467bfe4f012c.png" title=" User_Certi enters '10' into Enter the percentage of growth to new batch process (completed)" width="1369"/>
+                <img src="7828721c4b0dc3177ff176a971433ba4975046b0158f1ca8f778467bfe4f012c.png" title=" User_Certi clicks on Process run in mesh to new batch process" width="1369"/>
+                <img src="f1bce323d97d0fd65539aac08ef8bd94e57e199a52138e7121928a0d0ab8f7a6.png" title=" User_Certi clicks on Process run in mesh to new batch process (completed)" width="1369"/>
+                <img src="f1bce323d97d0fd65539aac08ef8bd94e57e199a52138e7121928a0d0ab8f7a6.png" title=" User_Certi clicks on Checkbox of sqoop process lz" width="1369"/>
+                <img src="e1167714d87da750d9ac8dec501946d9896d7f56a170856ec12257782f86626d.png" title=" User_Certi clicks on Checkbox of sqoop process lz (completed)" width="1369"/>
+                <img src="e1167714d87da750d9ac8dec501946d9896d7f56a170856ec12257782f86626d.png" title=" User_Certi clicks on Button ok batch process" width="1369"/>
+                <img src="d4ab3eabdb76b1970d9ff016c4c424b93317324ab974d7bfb93a5035f8782e08.png" title=" User_Certi clicks on Button ok batch process (completed)" width="1369"/>
+                <img src="8736c7e26320b8fd431a50120360e72e8d113d62db7519ce6e1cb41e894eb442.png" title=" User_Certi clicks on Button cancel batch process" width="1369"/>
+                <img src="c71ead45e3a98525dd2b0ee3a4aefa352342aeb88e350608247315bee7d98b9f.png" title=" User_Certi clicks on Button cancel batch process (completed)" width="1369"/>
+                <img src="c71ead45e3a98525dd2b0ee3a4aefa352342aeb88e350608247315bee7d98b9f.png" title=" User_Certi clicks on evaluate check performance" width="1369"/>
+                <img src="5a02fbdc93183fba9abe07905ca9e033e645a41c31f73c05423e5acc412592b4.png" title=" User_Certi clicks on evaluate check performance (completed)" width="1369"/>
+                <img src="34bf652c22d4039a3fa691c7b8acd2ae11ba2ba3001741e89d243029e3210825.png" title=" User_Certi clicks on Button ok save information" width="1369"/>
+                <img src="d1b2c750fe2f3917eaa599e0d862e3bb114f6069123b9343ba1357cdc55085b4.png" title=" User_Certi clicks on Button ok save information (completed)" width="1369"/>
+                <img src="d1b2c750fe2f3917eaa599e0d862e3bb114f6069123b9343ba1357cdc55085b4.png" title=" User_Certi clicks on Maximize information general section" width="1369"/>
+                <img src="d9193bd57b039ed3e8af85f1e2a0a1a720ad8e44bfd41878b06e7d0e6821d0f5.png" title=" User_Certi clicks on Maximize information general section (completed)" width="1369"/>
+                <img src="d9193bd57b039ed3e8af85f1e2a0a1a720ad8e44bfd41878b06e7d0e6821d0f5.png" title=" User_certi tab check performance process batch tp (completed)" width="1369"/>
+                <img src="d9193bd57b039ed3e8af85f1e2a0a1a720ad8e44bfd41878b06e7d0e6821d0f5.png" title=" User_certi tab check security information tp" width="1369"/>
+                <img src="d9193bd57b039ed3e8af85f1e2a0a1a720ad8e44bfd41878b06e7d0e6821d0f5.png" title=" User_Certi clicks on Tab check list security" width="1369"/>
+                <img src="e5efd9e34d5e7383db81baedd7c52284839466c16be97bae7179a304bcf8f259.png" title=" User_Certi clicks on Tab check list security (completed)" width="1369"/>
+                <img src="e5efd9e34d5e7383db81baedd7c52284839466c16be97bae7179a304bcf8f259.png" title=" User_Certi clicks on Enter the application code" width="1369"/>
+                <img src="c5f42f6e1a8a4f73386ec35d2ecae8ad514c9c74b59ed51597394dc9c8e6eab7.png" title=" User_Certi clicks on Enter the application code (completed)" width="1369"/>
+                <img src="c5f42f6e1a8a4f73386ec35d2ecae8ad514c9c74b59ed51597394dc9c8e6eab7.png" title=" User_Certi enters 'NU0044001' into Enter the application code" width="1369"/>
+                <img src="047bad8ef65d374f8cc761f321c174d0182b9c9ef40b6d713b1c86afc437021f.png" title=" User_Certi enters 'NU0044001' into Enter the application code (completed)" width="1369"/>
+                <img src="047bad8ef65d374f8cc761f321c174d0182b9c9ef40b6d713b1c86afc437021f.png" title=" User_Certi clicks on Enter the name of the engineer of security" width="1369"/>
+                <img src="9957d02636225222a1fca6e4772442d07e1e1b996bcf8d04228a358c053d5f00.png" title=" User_Certi clicks on Enter the name of the engineer of security (completed)" width="1369"/>
+                <img src="9957d02636225222a1fca6e4772442d07e1e1b996bcf8d04228a358c053d5f00.png" title=" User_Certi enters 'Julio Cesar Perez Calderon' into Enter the name of the engineer of security" width="1369"/>
+                <img src="94e6271bbb9342a20538bb269217681464848e78142a45b87c9236341a6d17ec.png" title=" User_Certi enters 'Julio Cesar Perez Calderon' into Enter the name of the engineer of security (completed)" width="1369"/>
+                <img src="f002010ea088fc8a4c79c4a80eecdd76d9937a540759e091d138e9480650bf67.png" title=" User_Certi clicks on Enter the name of the engineer of security" width="1369"/>
+                <img src="92634e824616c320e8788ae7ba8eabecd3196f73edfb1781d84ef838621565a7.png" title=" User_Certi clicks on Enter the name of the engineer of security (completed)" width="1369"/>
+                <img src="92634e824616c320e8788ae7ba8eabecd3196f73edfb1781d84ef838621565a7.png" title=" User_Certi Select The List The Option 'Julio Cesar Perez Calderon'" width="1369"/>
+                <img src="61e1b4d45ad1d690b1e8401932993ece0ce7830a14d5812189f2c140f30f531c.png" title=" User_Certi clicks on Enter the name of the engineer of security" width="1369"/>
+                <img src="026cb9a43d839866624a2df91e53da53e21b3aa67db507ee42119c4974cbba1c.png" title=" User_Certi clicks on Enter the name of the engineer of security (completed)" width="1369"/>
+                <img src="a67486cd75a72081dacfcc152db6dc02fd31446e2f9fe64037a5f7a1c5addd69.png" title=" User_Certi clicks on Select in the list, assigned to" width="1369"/>
+                <img src="a144565b0f9585ad6fe83d763e173c15a7f6f7df1b8fe50a2f5eede26e0931a9.png" title=" User_Certi clicks on Select in the list, assigned to (completed)" width="1369"/>
+                <img src="a144565b0f9585ad6fe83d763e173c15a7f6f7df1b8fe50a2f5eede26e0931a9.png" title=" User_Certi Select The List The Option 'Julio Cesar Perez Calderon' (completed)" width="1369"/>
+                <img src="a144565b0f9585ad6fe83d763e173c15a7f6f7df1b8fe50a2f5eede26e0931a9.png" title=" User_Certi clicks on button save test plan " width="1369"/>
+                <img src="38dfa3830be761eea4c25f6fee459b6254ce60a0b2d30275f2bcacc10d5862e6.png" title=" User_Certi clicks on button save test plan  (completed)" width="1369"/>
+                <img src="410dbd5777c54ffaf91ab6d9d7b3bc11a1280b30298922c2a9f53a70380d9237.png" title=" User_Certi clicks on Enter the name of the engineer of security" width="1369"/>
+                <img src="157f5007c2aac23beda0d225cc7eeef06bf1b2355f8fb1c7b1f39e5aa788a322.png" title=" User_Certi clicks on Enter the name of the engineer of security (completed)" width="1369"/>
+                <img src="157f5007c2aac23beda0d225cc7eeef06bf1b2355f8fb1c7b1f39e5aa788a322.png" title=" User_Certi clicks on Enter the name of the engineer of security" width="1369"/>
+                <img src="688ae18820ae9a1e3a4f49335657161f65671e6ae34cb59707025ad9119a24c3.png" title=" User_Certi clicks on Enter the name of the engineer of security (completed)" width="1369"/>
+                <img src="688ae18820ae9a1e3a4f49335657161f65671e6ae34cb59707025ad9119a24c3.png" title=" User_Certi enters 'Cesar Augusto Ospina Jimenez' into Enter the name of the engineer of security" width="1369"/>
+                <img src="ad7f39f3a106c5b2c557ca0cb6795cee7379ed11ad72697e02811e3b6793fcdb.png" title=" User_Certi enters 'Cesar Augusto Ospina Jimenez' into Enter the name of the engineer of security (completed)" width="1369"/>
+                <img src="62af2248534ccfcbe357b0f27c9b1c05b2001dc388defdd6b33350a6f7014bbd.png" title=" User_Certi clicks on Enter the name of the engineer of security" width="1369"/>
+                <img src="796babda319f858bc3df9d41ed3f4453181bc941ba0c81bcb91fe4659bbf894e.png" title=" User_Certi clicks on Enter the name of the engineer of security (completed)" width="1369"/>
+                <img src="796babda319f858bc3df9d41ed3f4453181bc941ba0c81bcb91fe4659bbf894e.png" title=" User_Certi Select The List The Option 'Cesar Augusto Ospina Jimenez'" width="1369"/>
+                <img src="3b167bb1c33a5db56ac5c412779cb911385042965f7a48b3d4982be9151cdc42.png" title=" User_Certi clicks on Enter the name of the engineer of security" width="1369"/>
+                <img src="fdbbc745fc8f138d0d145de1c1b409618798f6819a570b0efcc8f0f87477ef8e.png" title=" User_Certi clicks on Enter the name of the engineer of security (completed)" width="1369"/>
+                <img src="15ff9a0594c9e7b116ee39974ce6542e68573d1a09ff6d2ceedcf2f73944a153.png" title=" User_Certi clicks on Select in the list, assigned to" width="1369"/>
+                <img src="e6268468cb8520aafc2c5e65a330ded741ac1eb30c7d9f925378f27057af1eb4.png" title=" User_Certi clicks on Select in the list, assigned to (completed)" width="1369"/>
+                <img src="e6268468cb8520aafc2c5e65a330ded741ac1eb30c7d9f925378f27057af1eb4.png" title=" User_Certi Select The List The Option 'Cesar Augusto Ospina Jimenez' (completed)" width="1369"/>
+                <img src="e6268468cb8520aafc2c5e65a330ded741ac1eb30c7d9f925378f27057af1eb4.png" title=" User_Certi clicks on button save test plan " width="1369"/>
+                <img src="78f77939a89c27caa571f0089643d9b66007bdfcf6f50eb94f9c710c8e93c514.png" title=" User_Certi clicks on button save test plan  (completed)" width="1369"/>
+                <img src="a96eaa4b73e19f267af00e525758ce77d83d52be778bd59bd733e029105d6d05.png" title=" User_Certi clicks on Hu security" width="1369"/>
+                <img src="01189ccd0b4dfd928766963e9baa7d58ef7d0e20db7eec0c21d961238a798dfd.png" title=" User_Certi clicks on Hu security (completed)" width="1369"/>
+                <img src="01189ccd0b4dfd928766963e9baa7d58ef7d0e20db7eec0c21d961238a798dfd.png" title=" User_Certi enters '#4544378' into Hu security" width="1369"/>
+                <img src="2040d45b982d2483d30d8b996ccbecf945a7fffc9a4e3b1a7894efcacefe75a3.png" title=" User_Certi enters '#4544378' into Hu security (completed)" width="1369"/>
+                <img src="c5c051f706d936e1488169d5b3324c9dc841a718e41e4991195e0a77e56b2143.png" title=" User_Certi types 'ENTER' in Hu security" width="1369"/>
+                <img src="8502abe09ba3d9c5ca595f3f9ff46baebf0ee30b503ff749d26c0ae1c1c36097.png" title=" User_Certi types 'ENTER' in Hu security (completed)" width="1369"/>
+                <img src="89bb6420dd5a74af94818bf8f6a98aade8870d99fe95a4a9c7d67a536c9c32cc.png" title=" User_Certi clicks on button save test plan " width="1369"/>
+                <img src="d80f8b31a290786729abbc898ec6d5524dfaff1bbe78b16383d04e4324416c88.png" title=" User_Certi clicks on button save test plan  (completed)" width="1369"/>
+                <img src="d80f8b31a290786729abbc898ec6d5524dfaff1bbe78b16383d04e4324416c88.png" title=" User_certi tab check security information tp (completed)" width="1369"/>
+                <img src="d80f8b31a290786729abbc898ec6d5524dfaff1bbe78b16383d04e4324416c88.png" title=" User_certi tab check security proccess tp" width="1369"/>
+                <img src="a507d6ac66f20c0daa45678a140895be7587a841447328a3c4e7be5221fd772b.png" title=" User_Certi clicks on Maximize information general section" width="1369"/>
+                <img src="4ca39c540e801586530a4333b6a2719297158d60e03aecc950edc5acc2f1c718.png" title=" User_Certi clicks on Maximize information general section (completed)" width="1369"/>
+                <img src="4468db90e48f771d1c565cbf4ff913b8ca2947f929dc449c1f038e60dae97b12.png" title=" User_Certi clicks on Maximize information general section" width="1369"/>
+                <img src="f7c895ac2f534bef96d66350f1595f01e14c1866ca261343f221f6df9c034048.png" title=" User_Certi clicks on Maximize information general section (completed)" width="1369"/>
+                <img src="8bd492e073541e0e43634337b3d89897e58e6b8b7dbc585ebebc3b5d730c92be.png" title=" User_certi tab check security proccess tp (completed)" width="1369"/>
+                <img src="d1f23cc2a31c2bd51bb9411051be2cf7e7efa95e917f752dc7860e7d1358637f.png" title=" User_Certi clicks on Text with number of tp " width="1369"/>
+                <img src="3a24a2591ea0cd0a14c25b8b6d5c8c87b73b8023de91fac885a5733dbda5b884.png" title=" User_Certi clicks on Text with number of tp  (completed)" width="1369"/>
+                <img src="aea6075a8aeca1e9b0dbd4207facabf86b1e08c29aaff1580c785fbf7d2aa55a.png" title=" User_certi home page task test plan (completed)" width="1369"/>
+                <img src="aea6075a8aeca1e9b0dbd4207facabf86b1e08c29aaff1580c785fbf7d2aa55a.png" title=" When we fill in the test plan fields
+| id |
+| 1 | (completed)" width="1369"/>
+                <img src="60a35ec6c247218520feb715b164683d92c6fbf52f7d43a67060ddc91885b943.png" title=" Then we can create the test plan successfull" width="1369"/>
+                <img src="60a35ec6c247218520feb715b164683d92c6fbf52f7d43a67060ddc91885b943.png" title=" User_Certi clicks on Text with number of tp " width="1369"/>
+                <img src="b6446211b034dece1821332af57fa96c383b21bafceb409687bc99c9f705bf86.png" title=" User_Certi clicks on Text with number of tp  (completed)" width="1369"/>
+                <img src="922bd3d5f7e2af81e9afa74953c799639dba22e4870de374ed223f7965fd8c30.png" title=" Then we can create the test plan successfull (completed): <span class='success-color'>SUCCESS</span>" width="1369"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>

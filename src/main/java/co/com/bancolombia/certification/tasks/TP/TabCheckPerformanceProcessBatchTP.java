@@ -40,7 +40,7 @@ public class TabCheckPerformanceProcessBatchTP implements Task {
                 Click.on(ENTER_NEW_BATCH_PROCESS),
                 Click.on(NAME_NEW_BATCH_PROCESS),
                 Enter.theValue(dataCertification.getProcessBatchTitle()).into(NAME_NEW_BATCH_PROCESS),
-                //Enter.theValue("Pr_prueba_test_plan_funcional_001").into(NAME_NEW_BATCH_PROCESS),
+                //Enter.theValue("Pr_prueba_test_plan_funcional_000003").into(NAME_NEW_BATCH_PROCESS),
 
 
 

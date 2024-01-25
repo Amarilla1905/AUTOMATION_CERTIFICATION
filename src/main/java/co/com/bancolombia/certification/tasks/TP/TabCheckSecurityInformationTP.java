@@ -49,7 +49,6 @@ public class TabCheckSecurityInformationTP implements Task {
                 Click.on(BTN_DEVSECOPS_ASSIGNED),
                 Click.on(TXT_ENGINNER_OF_DEVSECOPS),
                 Enter.theValue(dataCertification.getAssignedDevSecOps()).into(TXT_ENGINNER_OF_DEVSECOPS),
-                //Enter.theValue("Octavio Velez Gaviria").into(TXT_ENGINNER_OF_DEVSECOPS),
                 WaitUntil.the(TXT_ENGINNER_OF_DEVSECOPS, isVisible()).forNoMoreThan(10).seconds(),
                 Click.on(TXT_ENGINNER_OF_DEVSECOPS),
 
@@ -59,13 +58,13 @@ public class TabCheckSecurityInformationTP implements Task {
                 Pause.forSeconds(1),
 
                 Click.on(TXT_HU_CYBERSECURITY),
-                SlowType.slowType(dataCertification.getCybersecurityHu(), TXT_HU_CYBERSECURITY),
-                //Enter.theValue(dataCertification.getCybersecurityHu()).into(TXT_HU_CYBERSECURITY),
-                Pause.forSeconds(1),
+                Enter.theValue(dataCertification.getCybersecurityHu()).into(TXT_HU_CYBERSECURITY),
+                Pause.forSeconds(3),
                 Hit.the(Keys.ENTER).into(TXT_HU_CYBERSECURITY),
                 WaitUntil.the(BTN_SAVE,isClickable()).forNoMoreThan(5).seconds(),
-                Pause.forSeconds(1),
+                Pause.forSeconds(3),
                 Click.on(BTN_SAVE)
+
 
 
         );

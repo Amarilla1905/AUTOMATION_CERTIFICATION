@@ -35,6 +35,7 @@ public class AddParentRelated implements Task {
 
                 Click.on(LINK_ADD_RELATED_PARENT),
                 Click.on(TXT_NUM_HU),
+                WaitUntil.the(TXT_NUM_HU, isVisible()).forNoMoreThan(10).seconds(),
                 //SlowType.slowType(dataCertification.getRelatedParent(), TXT_NUM_HU),
                 Enter.theValue(dataCertification.getRelatedParent()).into(TXT_NUM_HU),
                 Pause.forSeconds(1),
@@ -49,7 +50,6 @@ public class AddParentRelated implements Task {
                 Hit.the(Keys.ENTER).into(TXT_PARENT_RELATED_HU_INPUT),
                 Click.on(TXT_NUM_HU),
                 Enter.theValue(dataCertification.getRelatedHu()).into(TXT_NUM_HU),
-                //SlowType.slowType(dataCertification.getRelatedHu(), TXT_NUM_HU),
                 WaitUntil.the(TXT_NUM_HU, isVisible()).forNoMoreThan(10).seconds(),
                 Pause.forSeconds(1),
                 Hit.the(Keys.ENTER).into(TXT_NUM_HU),

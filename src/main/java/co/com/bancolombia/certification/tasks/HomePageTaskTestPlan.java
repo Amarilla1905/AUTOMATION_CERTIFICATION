@@ -22,12 +22,12 @@ public class HomePageTaskTestPlan implements Task {
         actor.attemptsTo(
                 LoginTask.loginTask(),
                 NewItemDescriptionTP.newItemDescription(dataCertification),
-             //   AddParentRelated.addParentRelated(dataCertification),
+                AddParentRelated.addParentRelated(dataCertification),
                 TabPerformanceTP.tabPerfomanceTP(dataCertification),
                 TabCheckPerformanceInformationTP.tabCheckPerformanceInformation(dataCertification),
-              //  TabCheckPerformanceProcessBatchTP.tabCheckPerformanceProcessBatch(dataCertification),
+                TabCheckPerformanceProcessBatchTP.tabCheckPerformanceProcessBatch(dataCertification),
                 TabCheckSecurityInformationTP.tabCheckSecurityInformation(dataCertification),
-              //  TabCheckSecurityProccessTP.tabCheckSecurityProccess(dataCertification),
+                TabCheckSecurityProccessTP.tabCheckSecurityProccess(dataCertification),
                 GetNumberTP.getNumberTP(TestPlanPage.TXT_NUMBER_TP)
 
 

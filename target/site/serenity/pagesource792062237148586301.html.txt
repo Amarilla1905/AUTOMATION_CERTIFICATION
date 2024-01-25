@@ -1,0 +1,116 @@
+<html lang="en"><head>
+    <title>Aviso de redirección</title>
+    <link type="text/css" id="stylesheet-link" rel="stylesheet" href="https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf/css/proxyweb-all.min.css?cb=1.46.109-4" media="all">
+    <script src="https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf/js/handlebars.min.js"></script>
+    <script src="https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf/js/lodash-core.min.js"></script>
+    <script src="https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf/js/translate.js"></script>
+    <script src="https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf/js/simple-promise.js"></script>
+    
+    <link rel="icon" type="image/x-icon" href="https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf/images/favicon.ico?cb=1.46.109-4">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <script>
+        var i18nResourcesUrl = "https://mcasproxy.cdn.mcas.ms/i18n/0.267.25";
+        var context = {"REDIRECT_URL":"https://grupobancolombia.visualstudio.com/Vicepresidencia%20Servicios%20de%20Tecnolog%C3%ADa/_workitems/following/","REDIRECT_DOMAIN":"grupobancolombia.visualstudio.com","REDIRECT_SIMPLIFIED_URL":"https://grupobancolombia.visualstudio.com/Vicepresidencia%2520Servicios%2520de%2520Tecnolog%25C3%25ADa/_workitems/following/","CONTEXTPATH":"https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf","TENANT_LOGO_PATH":""};
+        var locale = escape("");
+        var partials = [ "page-footer" ];
+        var template = "PG1haW4gY2xhc3M9InByb3h5d2ViLWNvbnRhaW5lciI+CiAgICA8ZGl2IGNsYXNzPSJwcm94eXdlYi1oZWFkZXIiPjwvZGl2PgogICAgPGRpdiBjbGFzcz0icHJveHl3ZWItcGFnZS1jb250ZW50Ij4KICAgICAgICA8aW1nIGNsYXNzPSJwcm94eXdlYi10aXRsZS1pbWFnZSIgc3JjPSJ7e0NPTlRFWFRQQVRIfX0vaW1hZ2VzL3dhcm5pbmcucG5nIiByb2xlPSJwcmVzZW50YXRpb24iPgogICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxoMSBjbGFzcz0icHJveHl3ZWItdGl0bGUiPgogICAgICAgICAgICAgICAge3tmb3JtYXRNZXNzYWdlIChpbnRsR2V0ICJ0cmFuc2xhdGlvbnMuUFJPWFlXRUJfQ0VSVF9DSEVDS0VSX1JFRElSRUNUX1BBR0VUSVRMRSIpfX0KICAgICAgICAgICAgPC9oMT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJwcm94eXdlYi1kZXNjcmlwdGlvbiI+CiAgICAgICAgICAgIHt7Zm9ybWF0TWVzc2FnZSAoaW50bEdldCAidHJhbnNsYXRpb25zLlBST1hZV0VCX0NFUlRfQ0hFQ0tFUl9SRURJUkVDVF9ERVNDUklQVElPTiIpIHVybD1SRURJUkVDVF9TSU1QTElGSUVEX1VSTH19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0icHJveHl3ZWItZGV0YWlscyI+CiAgICAgICAgICAgIHt7Zm9ybWF0TWVzc2FnZSAoaW50bEdldCAidHJhbnNsYXRpb25zLlBST1hZV0VCX0NFUlRfQ0hFQ0tFUl9SRURJUkVDVF9ET19OT1RfQ09OVElOVUUiKX19CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0icHJveHl3ZWItZm9vdGVyLXJpZ2h0LXNlY3Rpb24iPgogICAgICAgICAgICA8YSBpZD0icHJveHl3ZWItZGlzbWlzcy1idG4tbWFpbiIgY2xhc3M9InByb3h5d2ViLWNvbnRpbnVlLXRvLWFwcCIgaHJlZj0ie3tSRURJUkVDVF9VUkx9fSI+CiAgICAgICAgICAgICAgICB7e2Zvcm1hdE1lc3NhZ2UgKGludGxHZXQgInRyYW5zbGF0aW9ucy5QUk9YWVdFQl9DRVJUX0NIRUNLRVJfUkVESVJFQ1RfUFJPQ0VFRCIpIHVybD1SRURJUkVDVF9ET01BSU59fQogICAgICAgICAgICA8L2E+CiAgICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KPC9tYWluPgp7ez4gcGFnZS1mb290ZXJ9fQo8c2NyaXB0IGlkPSJvbi10ZW1wbGF0ZS1sb2FkIj4KICAgIGRvY3VtZW50LnRpdGxlID0gInt7Zm9ybWF0TWVzc2FnZSAoaW50bEdldCAndHJhbnNsYXRpb25zLlBST1hZV0VCX0NFUlRfQ0hFQ0tFUl9SRURJUkVDVF9QQUdFVElUTEUnKX19IjsKPC9zY3JpcHQ+";
+        var proxyWebPath = "https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf";
+
+        Handlebars.registerHelper('json', function (content) {
+            return JSON.stringify(content);
+        });
+
+        Handlebars.registerHelper('valOrDefault', function (value, defaultValue) {
+            return value || defaultValue;
+        });
+
+        loadPartials();
+
+        function onLoad(content){
+            document.body.innerHTML += content;
+            var evalOnLoad = document.getElementById("on-template-load");
+            if (evalOnLoad) {
+                eval(evalOnLoad.textContent);
+            }
+        }
+
+        Translate.loadScript("https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf" + "/js/Handlebars/handlebars-intl-v1.1.2.min.js", function() {
+            Translate.initLocale("https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf", i18nResourcesUrl, locale, function () {
+                loadPartials().then(function(resolve, reject) {
+                        onLoad(Translate.getLocalizedContent(atob(template), context));
+                    }
+                );
+            });
+        });
+
+        function loadPartials() {
+            var promises = [];
+            if (typeof partials === "undefined" || partials.length === 0) {
+                return SimplePromise.resolvedPromise();
+            }
+            partials.forEach(
+                function (partial) {
+                    promises.push(
+                        new SimplePromise(function (resolve, reject) {
+                                var templatePath = "https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf/js/templates/partials/" + partial + ".hbs";
+                                var request = new XMLHttpRequest();
+                                request.onload = function () {
+                                    resolve(request);
+                                };
+                                request.open('GET', templatePath);
+                                request.send();
+                            }
+                        ).then(function(partialRequest) {
+                                Handlebars.registerPartial(partial, partialRequest.responseText)
+                            }
+                        )
+                    );
+                }
+            );
+            return SimplePromise.all(promises);
+        }
+    </script><script type="text/javascript" src="https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf/js/Handlebars/handlebars-intl-v1.1.2.min.js"></script>
+
+
+<script type="text/javascript" src="https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf/js/Handlebars/locale-data/es.js"></script><main class="proxyweb-container">
+    <div class="proxyweb-header"></div>
+    <div class="proxyweb-page-content">
+        <img class="proxyweb-title-image" src="https://mcasproxy.cdn.mcas.ms/proxyweb/1.46.35-6-hf/images/warning.png" role="presentation">
+        <div>
+            <h1 class="proxyweb-title">
+                Aviso de redirección
+            </h1>
+        </div>
+        <div class="proxyweb-description">
+            El vínculo que siguió ha solicitado que se le redirija a https://grupobancolombia.visualstudio.com/Vicepresidencia%2520Servicios%2520de%2520Tecnolog%25C3%25ADa/_workitems/following/
+        </div>
+        <div class="proxyweb-details">
+            Si no desea continuar, cierre esta pestaña.
+        </div>
+        <div class="proxyweb-footer-right-section">
+            <a id="proxyweb-dismiss-btn-main" class="proxyweb-continue-to-app" href="https://grupobancolombia.visualstudio.com/Vicepresidencia%20Servicios%20de%20Tecnolog%C3%ADa/_workitems/following/">
+                Continuar con grupobancolombia.visualstudio.com
+            </a>
+        </div>
+    </div>
+</main>
+<div class="proxyweb-footer">
+    <div class="proxyweb-footer-content">
+        <div class="proxyweb-footer-item">
+            <div class="proxyweb-footer-text proxyweb-footer-mcas">
+                Microsoft Defender for Cloud Apps
+            </div>
+            <div class="proxyweb-vertical-line"></div>
+            <div class="proxyweb-footer-text proxyweb-footer-links">
+                <a target="_blank" href="http://go.microsoft.com/fwlink/?LinkID=733268">Términos</a>
+                |
+                <a target="_blank" href="http://go.microsoft.com/fwlink/?LinkId=512132">Privacidad</a>
+            </div>
+        </div>
+    </div>
+</div><script id="on-template-load">
+    document.title = "Aviso de redirección";
+</script></body></html>
